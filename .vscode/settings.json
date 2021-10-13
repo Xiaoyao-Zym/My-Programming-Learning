@@ -1,4 +1,6 @@
 {
     "code-runner.enableAppInsights": false,
-    "code-runner.runInTerminal": true
+    "code-runner.runInTerminal": true,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4
 }
