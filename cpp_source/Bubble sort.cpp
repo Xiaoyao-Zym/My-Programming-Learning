@@ -9,12 +9,11 @@ int main()
     {
         cout<<data[i];
     }
-   
     //开始冒泡排序
     //排序轮数：元素个数-1
     for (i = 0; i < M-1; i++)
     {
-        //内层循环对比次数：元素个数-当前轮数-1
+    //内层循环对比次数：元素个数-当前轮数-1
         for (j = 0; j <M-i-1 ; j++)
         {
             if (data[j]>data[j+1])
@@ -25,8 +24,8 @@ int main()
             }
         }
     }
-     cout<<"排序后："<<endl;
-     for (i = 0; i < M; i++)
+    cout<<"排序后："<<endl;
+    for (i = 0; i < M; i++)
     {
         cout<<data[i];
     }
