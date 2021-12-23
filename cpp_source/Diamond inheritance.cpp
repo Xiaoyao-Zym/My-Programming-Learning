@@ -21,7 +21,6 @@ class Tuo :virtual public Animal
 public:
 };
 //—ÚÕ’
-
 class SheepTuo:public Sheep, public Tuo
 {
 
