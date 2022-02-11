@@ -23,7 +23,7 @@ void test01()
 void test02()
 {
     string str2="abcdefd";
-    str2.replace(2, 2,"12345");
+    str2.replace(2, 3,"12345");
     cout<<"str2="<<str2<<endl;
 }
 int main()
