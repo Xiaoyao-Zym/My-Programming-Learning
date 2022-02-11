@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-void test01()
+void test()
 {
     string str1="hello";
     string str2="hello";
@@ -20,7 +20,7 @@ void test01()
 }
 int main()
 {
-    test01();
+    test();
     system("pause");
     return 0;
 }
