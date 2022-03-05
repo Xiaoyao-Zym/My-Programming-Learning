@@ -15,5 +15,7 @@
    "terminal.integrated.fontWeightBold": "normal",
     "terminal.integrated.automationShell.linux": "",
    "terminal.integrated.defaultProfile.linux": "",
-   "files.encoding": "gbk"
+"files.encoding": "gbk",
+"markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
+"markdown-preview-enhanced.previewTheme": "one-dark.css"
 }
