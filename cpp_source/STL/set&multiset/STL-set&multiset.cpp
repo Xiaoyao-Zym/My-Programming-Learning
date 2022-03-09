@@ -5,7 +5,7 @@ using namespace std;
 void test01()
 {
     set<int> s;
-    pair<set<int>::iterator, bool> ret=s.insert(10);
+    pair<set<int>::iterator, bool> ret=s.insert(20);
     if (ret.second)
     {
         cout<<"第一次插入成功"<<endl;
