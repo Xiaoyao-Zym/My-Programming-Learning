@@ -17,7 +17,7 @@ void test01()
     m.insert(pair<int, int>(90, 80));
     m.insert(pair<int, int>(10, 20));
     m.insert(pair<int, int>(30, 40));
-    m.insert(pair<int, int>(50, 60));
+    m.insert(pair<int, int>(50, 90));
     printMap(m);
     //¿½±´¹¹Ôì
     map<int, int>m2(m);
