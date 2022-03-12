@@ -40,8 +40,8 @@ void setGroup( vector<Employee>&v, multimap<int, Employee>&m)
         m.insert(make_pair(depId, *it));
     }
 }
-//显示员工
-void showEmployee(multimap<int, Employee>&m)
+//显示员工(方法1)
+void showEmployee01(multimap<int, Employee>&m)
 {
     cout<<"策划部门："<<endl;
     multimap<int, Employee>::iterator pos=m.find(Scheme); 
@@ -73,6 +73,24 @@ void showEmployee(multimap<int, Employee>&m)
         cout<<"薪资："<<(*pos).second.m_Salary<<endl;
     }
 }
+//显示员工(方法2)
+void showEmployee02(multimap<int, Employee>&m)
+{
+    string s[3]={"策划部门", "美术部门", "研发部门"};
+    for(int i=0; i<3; i++)
+    {
+        cout<<s[i]<<endl;
+        multimap<int, Employee>::iterator pos=m.find(i); 
+        int num=m.count(i);
+        int index=0;
+        for (; pos!=m.end()&&index<num; pos++, index++)
+        {
+        cout<<"姓名："<< (*pos).second.m_Name;
+        cout<<"薪资："<<(*pos).second.m_Salary<<endl;
+        }
+        cout<<"------------------------------------"<<endl;
+    }
+}
 int main()
 {
     //1. 创建员工
@@ -87,7 +105,8 @@ int main()
     multimap<int, Employee>m;
     setGroup(v, m);
     //分组显示员工
-    showEmployee(m);
+    showEmployee01(m);
+    showEmployee02(m);
     system("pause");
     return 0;
 }
