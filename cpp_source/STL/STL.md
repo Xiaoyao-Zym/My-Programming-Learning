@@ -7,7 +7,7 @@
 * **ÈİÆ÷**ºÍ**Ëã·¨**Ö®¼äÍ¨¹ı**µü´úÆ÷**½øĞĞÎŞ·ìÁ¬½Ó
 * STL¼¸ºõËùÓĞµÄ´úÂë¶¼²ÉÓÃÁËÄ£°å»òÕßÄ£°åº¯Êı
 
-## 2. STLµÄÁù´ó×é¼ş
+### 1.2 STLµÄÁù´ó×é¼ş
 
 STL´óÌå·ÖÎªÁù´ó×é¼ş£ºÈİÆ÷¡¢Ëã·¨¡¢µü´úÆ÷¡¢·Âº¯Êı¡¢ÊÊÅäÆ÷(Åä½ÓÆ÷)¡¢¿Õ¼äÅäÖÃÆ÷
 
@@ -18,7 +18,7 @@ STL´óÌå·ÖÎªÁù´ó×é¼ş£ºÈİÆ÷¡¢Ëã·¨¡¢µü´úÆ÷¡¢·Âº¯Êı¡¢ÊÊÅäÆ÷(Åä½ÓÆ÷)¡¢¿Õ¼äÅäÖÃÆ÷
 5. ÊÊÅäÆ÷£ºÒ»ÖÖÓÃÀ´ĞŞÊÎÈİÆ÷»òÕß·Âº¯Êı»òµü´úÆ÷½Ó¿ÚµÄ¶«Î÷
 6. ¿Õ¼äÅäÖÃÆ÷£º¸ºÔğ¿Õ¼äµÄÅäÖÃÓë¹ÜÀí
 
-## 3.STLÖĞÈİÆ÷¡¢Ëã·¨¡¢µü´úÆ÷
+### 1.3 STLÖĞÈİÆ÷¡¢Ëã·¨¡¢µü´úÆ÷
 
 STLÈİÆ÷¾ÍÊÇ½«ÔËÓÃ×î¹ã·ºµÄÒ»Ğ©Êı¾İÊµÏÖ³öÀ´
 ³£ÓÃµÄÊı¾İ½á¹¹£ºÊı×é¡¢Á´±í¡¢Ê÷¡¢Õ»¡¢¶ÓÁĞ¡¢¼¯ºÏ¡¢Ó³Éä±í
@@ -48,11 +48,11 @@ STLÈİÆ÷¾ÍÊÇ½«ÔËÓÃ×î¹ã·ºµÄÒ»Ğ©Êı¾İÊµÏÖ³öÀ´
 
 ³£ÓÃµÄÈİÆ÷ÖĞµü´úÆ÷ÖÖÀàÎªË«Ïòµü´úÆ÷£¬ºÍËæ»ú·ÃÎÊµü´úÆ÷¡£
 
-## 4.ÈİÆ÷Ëã·¨µü´úÆ÷³õÊ¶
+### 1.4 ÈİÆ÷Ëã·¨µü´úÆ÷³õÊ¶
 
 STLÖĞ×î³£ÓÃµÄÈİÆ÷ÎªVector£¬¿ÉÒÔÀí½âÎªÊı×é£¬ÏòÕâ¸öÈİÆ÷ÖĞ²åÈëÊı¾İ£¬²¢±éÀúÕâ¸öÈİÆ÷
 
-### 4.1 Vector´æ·ÅÄÚÖÃÊı¾İÀàĞÍ
+####  Vector´æ·ÅÄÚÖÃÊı¾İÀàĞÍ
 
 ÈİÆ÷£º  `vector`
 Ëã·¨£º`for_each`
@@ -127,9 +127,10 @@ int main()
 }
 ```
 
-# 5 stringÈİÆ÷
+## 2 STL³£ÓÃÈİÆ÷
+### 2.1 stringÈİÆ÷
 
-## 5.1 »ù±¾¸ÅÄî
+#### »ù±¾¸ÅÄî
 
 ±¾ÖÊ£ºstringÊÇC++·ç¸ñµÄ×Ö·û´®£¬±¾ÖÊÊÇÒ»¸öÀà**stringºÍchar**Çø±ğ£º
 
@@ -140,7 +141,7 @@ int main()
   ÀıÈç£º²éÕÒfind£¬¿½±´copy£¬É¾³ıdelete Ìæ»»replace£¬²åÈëinsert
   string¹ÜÀíchar*Ëù·ÖÅäµÄÄÚ´æ£¬²»ÓÃµ£ĞÄ¸´ÖÆÔ½½çºÍÈ¡ÖµÔ½½ç£¬ÓÉÀàÄÚ²¿¹ÜÀí
 
-## 5.2 string¹¹Ôìº¯Êı
+#### string¹¹Ôìº¯Êı
 
 ¹¹Ôìº¯ÊıÔ­ĞÍ£º
 
@@ -149,10 +150,9 @@ int main()
 * string(const string &str);   //Ê¹ÓÃÒ»¸östring¶ÔÏó³õÊ¼»¯ÁíÒ»¸östring¶ÔÏó
 * string(int n, char c);  //Ê¹ÓÃn¸ö×Ö·ûc ³õÊ¼»¯
 
-## 5.3string¸³Öµ²Ù×÷
+#### string¸³Öµ²Ù×÷
 
 ¹¦ÄÜÃèÊö
-
 * ¸østring×Ö·û´®½øĞĞ¸³Öµ
   ¸³ÖµµÄº¯ÊıÔ­ĞÍ£º
 * string& operator=(const char* s);         //char*ÀàĞÍ×Ö·û´®£¬¸³Öµ¸øµ±Ç°µÄ×Ö·û´®
@@ -163,7 +163,6 @@ int main()
 * string& aasign(int n, char c);                 //ÓÃn¸ö×Ö·ûc¸³Öµ¸øµ±Ç°×Ö·û´®
 
 ´úÂëÊ¾Àı
-
 ```C++
 #include<iostream>
 #include<string>
@@ -199,7 +198,7 @@ int main()
 
 ×Ü½á£ºstring¸³Öµ·½Ê½ºÜ¶à£¬operator-·½Ê½½ÏºÃ¡£
 
-## 5.4 string×Ö·û´®µÄÆ´½Ó
+#### string×Ö·û´®µÄÆ´½Ó
 
 ¹¦ÄÜÃèÊö£º
 
@@ -258,7 +257,7 @@ int main()
 }
 ```
 
-## 5.5 string²éÕÒºÍÌæ»»
+#### string²éÕÒºÍÌæ»»
 
 ¹¦ÄÜÃèÊö£º
 
@@ -318,7 +317,7 @@ int main()
 }
 ```
 
-## 5.6 string×Ö·û´®±È½Ï
+#### string×Ö·û´®±È½Ï
 
 ¹¦ÄÜÃèÊö£º
 
@@ -364,7 +363,7 @@ int main()
 }
 ```
 
-## 5.7 string×Ö·û´æÈ¡
+#### string×Ö·û´æÈ¡
 
 stringÖĞµ¥¸ö×Ö·û´æÈ¡·½Ê½ÓĞÁ½ÖÖ
 
@@ -406,7 +405,7 @@ int main()
 }
 ```
 
-## 5.8 string×Ö·û´®²åÈëºÍÉ¾³ı
+#### string×Ö·û´®²åÈëºÍÉ¾³ı
 
 ¹¦ÄÜÃèÊö£º
 
@@ -444,7 +443,7 @@ int main()
 }
 ```
 
-## 5.9 string×Ó´®
+#### string×Ó´®
 
 ¹¦ÄÜÃèÊö£º´Ó×Ö·û´®ÖĞÑ¡È¡ËùĞèÒªµÄ×Ó´®
 
@@ -480,9 +479,9 @@ int main()
 }
 ```
 
-# 6 vectorÈİÆ÷
+### 2.2vectorÈİÆ÷
 
-## 6.1 vector »ù±¾¸ÅÄî
+#### vector »ù±¾¸ÅÄî
 
 ¹¦ÄÜ£º
 
@@ -497,7 +496,7 @@ vectorÓëÆÕÍ¨º¯Êı×éÇø±ğ£º
 * ²¢²»ÊÇÔÚÔ­¿Õ¼äÖ®ºóĞø½Ó¿Õ¼ä£¬¶øÊÇÕÒ¸üºÃµÄÄÚ´æ¿Õ¼ä£¬È»ºó½«Ô­Êı¾İ¿½±´ĞÂ¿Õ¼ä£¬ÊÍ·ÅÔ­¿Õ¼ä¡£
 * vectorÈİÆ÷µü´úÆ÷Ö§³ÖËæ»ú·ÃÎÊµÄµü´úÆ÷
 
-## 6.2 vector¹¹Ôìº¯Êı
+#### vector¹¹Ôìº¯Êı
 
 ¹¦ÄÜÃèÊö£º
 
@@ -551,7 +550,7 @@ int main()
 }
 ```
 
-## 6.3 vectorÈİÆ÷¸³Öµ
+#### vectorÈİÆ÷¸³Öµ
 
 ¹¦ÄÜÃèÊö£º
 
@@ -606,7 +605,7 @@ int main()
 }
 ```
 
-## 6.4 vectorÈİÁ¿ºÍ´óĞ¡
+#### vectorÈİÁ¿ºÍ´óĞ¡
 
 ¹¦ÄÜÃèÊö£º
 
@@ -665,14 +664,10 @@ int main()
 }
 ```
 
-## 6.5 vectorÈİÆ÷µÄ²åÈëÓëÉ¾³ı
-
+#### vectorÈİÆ÷µÄ²åÈëÓëÉ¾³ı
 ¹¦ÄÜÃèÊö£º
-
 * ¶ÔvectorÈİÆ÷½øĞĞ²åÈë¡¢É¾³ı²Ù×÷
-
 º¯ÊıÔ­ĞÍ£º
-
 * push_back(else);       //Î²²¿²åÈëÔªËØele
 * pop_back();              //É¾³ı×îºóÒ»¸öÔªËØ
 * insert(const_itrerator pos, ele);     //µü´úÆ÷Ö¸ÏòÎ»ÖÃpos²åÈëÔªËØele
@@ -681,7 +676,6 @@ int main()
 * erase(const_iterrator start, const_iterator end);     //É¾³ıµü´úÆ÷´Óstartµ½endÖ®¼äµÄÔªËØ
 * clear();
   ´úÂëÊ¾Àı£º
-
 ```C++
 #include<iostream>
 #include<vector>
@@ -743,21 +737,17 @@ int main()
 * É¾³ı--erase(Î»ÖÃµü´úÆ÷)
 * Çå¿Õ--clear
 
-## 6.6 vectorÊı¾İ´æÈ¡
+#### vectorÊı¾İ´æÈ¡
+¹¦ÄÜÃèÊö
+* ¶ÔvectorÖĞµÄÊı¾İµÄ´æÈ¡²Ù×÷  
 
-### ¹¦ÄÜÃèÊö
-
-* ¶ÔvectorÖĞµÄÊı¾İµÄ´æÈ¡²Ù×÷
-
-### º¯ÊıÔ­ĞÍ£º
-
+º¯ÊıÔ­ĞÍ£º
 * at(int idx);          //·µ»ØË÷ÒıidxËùÖ¸µÄÊı¾İ
 * operator[];         //·µ»ØË÷ÒıidxËùÖ¸µÄÊı¾İ
 * front();               //·µ»ØÈİÆ÷ÖĞµÚÒ»¸öÊı¾İÔªËØ
 * back();                //·µ»ØÈİÆ÷ÖĞ×îºóÒ»¸öÊı¾İÔªËØ
 
-### ´úÂëÊ¾Àı£º
-
+´úÂëÊ¾Àı£º
 ```C++
 #include<iostream>
 #include<vector>
@@ -804,17 +794,17 @@ int main()
 }
 ```
 
-## 6.7 vector»¥»»ÈİÆ÷
+#### vector»¥»»ÈİÆ÷
 
-### ¹¦ÄÜÃèÊö£º
+¹¦ÄÜÃèÊö£º
 
 * ÊµÏÖÁ½¸öÈİÆ÷ÄÚÔªËØ½øĞĞ»¥»»
 
-### º¯ÊıÔ­ĞÍ£º
+º¯ÊıÔ­ĞÍ£º
 
 * swap(vec);   //½«vecÓë±¾ÉíµÄÔªËØ»¥»»
 
-### ´úÂëÊ¾Àı
+´úÂëÊ¾Àı
 
 ```C++
 #include<vector>
@@ -879,18 +869,17 @@ int main()
 }
 ```
 
-## 6.8 vectorÔ¤Áô¿Õ¼ä
+#### vectorÔ¤Áô¿Õ¼ä
 
-### ¹¦ÄÜÃèÊö£º
+¹¦ÄÜÃèÊö£º
 
 * ¼õÉÙvectorÔÚ¶¯Ì¬À©Õ¹ÈİÁ¿Ê±µÄÀ©Õ¹´ÎÊı
 
-### º¯ÊıÔ­ĞÍ£º
+º¯ÊıÔ­ĞÍ£º
 
 * reserve(int len);      //ÈİÆ÷Ô¤Áôlen¸öÔªËØ³¤¶È£¬Ô¤ÁôÎ»ÖÃ²»³õÊ¼»¯£¬ÔªËØ²»¿É·ÃÎÊ
 
-### ´úÂëÊ¾Àı£º
-
+´úÂëÊ¾Àı£º
 ```C++
 #include<iostream>
 #include<vector>
@@ -922,9 +911,9 @@ int main()
 }
 ```
 
-# 7 dequeÈİÆ÷
+### 2.3 dequeÈİÆ÷
 
-### »ù±¾¸ÅÄî
+#### »ù±¾¸ÅÄî
 
 ¹¦ÄÜ£º
 
@@ -940,20 +929,20 @@ deque ÄÚ²¿¹¤×÷Ô­ÀídequeÄÚ²¿ÓĞ¸öÖĞ¿ØÆ÷£¬Î¬»¤Ã¿¶Î»º³åÇøÖĞµÄÄÚÈİ£¬»º³åÇøÖĞ´æ·ÅÕæÊµÊ
 
 * dequeÈİÆ÷µÄµü´úÆ÷Ò²ÊÇÖ§³ÖËæ»ú·ÃÎÊ
 
-## 7.1 deque¹¹Ôìº¯Êı
+####  deque¹¹Ôìº¯Êı
 
-### ¹¦ÄÜÃèÊö£º
+¹¦ÄÜÃèÊö£º
 
 * dequeÈİÆ÷¹¹Ôì
 
-### º¯ÊıÔ­ĞÍ£º
+º¯ÊıÔ­ĞÍ£º
 
 * deque<T>deqT;                    //ÊµÏÖÄ£°åÊµÏÖÀàÊµÏÖ£¬Ä¬ÈÏ¹¹Ôìº¯Êı
 * deque(beg, end());                //½«[beg, end]Çø¼äÖĞµÄÔªËØ¿½±´¸ø±¾Éí
 * deque(n, elem);                     //¹¹Ôìº¯Êı½«n¸öelem¿½±´¸ø±¾Éí
 * deque(const deque &vec);     //¿½±´¹¹Ôìº¯Êı
 
-### ´úÂëÊ¾Àı£º
+´úÂëÊ¾Àı£º
 
 ```C++
 #include<iostream>
@@ -991,19 +980,19 @@ int main()
 }
 ```
 
-## 7.2 deque¸³Öµ²Ù×÷
+#### deque¸³Öµ²Ù×÷
 
-### ¹¦ÄÜÃèÊö£º
+¹¦ÄÜÃèÊö£º
 
 * ¸ødequeÈİÆ÷½øĞĞ¸³Öµ
 
-### º¯ÊıÔ­ĞÍ£º
+º¯ÊıÔ­ĞÍ£º
 
 * deque& operator=(const deque &deq);      //ÖØÔØµÈºÅ²Ù×÷
 * assign(beg, end);                                          //½«[beg,end]Çø¼äÖĞµÄÊı¾İ¿½±´¸³Öµ¸ø±¾Éí
 * assign(n, elem)                                           //½«n¸öelem¿½±´¸³Öµ¸ø±¾Éí¡£
 
-### ´úÂëÊ¾Àı£º
+´úÂëÊ¾Àı£º
 
 ```C++
 void test01()
@@ -1028,20 +1017,20 @@ void test01()
 }
 ```
 
-## 7.3 deque´óĞ¡²Ù×÷
+#### deque´óĞ¡²Ù×÷
 
-### ¹¦ÄÜÃèÊö£º
+¹¦ÄÜÃèÊö£º
 
 * ¶ÔdequeÈİÆ÷µÄ´óĞ¡½øĞĞ²Ù×÷
 
-### º¯ÊıÔ­ĞÍ£º
+º¯ÊıÔ­ĞÍ£º
 
 * deque.empty();            //ÅĞ¶ÏÈİÆ÷ÊÇ·ñÎª¿Õ
 * deque.size();                //·µ»ØÈİÆ÷ÖĞÔªËØµÄ¸öÊı
 * deque.resize(num);     //ÖØĞÂÖ¸¶¨ÈİÆ÷µÄ³¤¶ÈÎªnum£¬ÈôÈİÆ÷±ä³¤£¬ÔòÒÔÄ¬ÈÏÖµÌî³äĞÂÎ»ÖÃ£¬                    //Èç¹ûÈİÆ÷±ä¶Ì£¬ÔòÄ©Î²³¬³ö³¤¶ÈµÄÔªËØ±»É¾³ı
 * deque.resize(num, elem);    //ÖØĞÂÖ¸¶¨ÈİÆ÷µÄ³¤¶ÈÎªnum£¬ÈôÈİÆ÷±ä³¤£¬ÔòÒÔelemÌî³äĞÂÎ»ÖÃ£¬Èç¹ûÈİÆ÷±ä¶Ì£¬ÔòÄ©Î²³¬³öÈİÆ÷³¤¶ÈµÄÔªËØ±»É¾³ı¡£
 
-### ´úÂëÊ¾Àı£º
+´úÂëÊ¾Àı£º
 
 ```C++
 //dequeÈİÆ÷´óĞ¡
@@ -1072,29 +1061,29 @@ void test01()
 }
 ```
 
-### ×Ü½á£º
+×Ü½á£º
 
 * dequeÃ»ÓĞÈİÁ¿¸ÅÄî
 * ÅĞ¶ÏÊÇ·ñÎª¿Õ----empty
 * ·µ»ØÔªËØ¸öÊı----size
 * ÖØĞÂÖÆ¶¨¸öÊı----resize
 
-## 7.4 deque²åÈëºÍÉ¾³ı
+#### deque²åÈëºÍÉ¾³ı
 
-### ¹¦ÄÜÃèÊö£º
+¹¦ÄÜÃèÊö£º
 
 * ÏòdequeÈİÆ÷ÖĞ²åÈëºÍÉ¾³ıÊı¾İ
 
-### º¯ÊıÔ­ĞÍ£º
+º¯ÊıÔ­ĞÍ£º
 
-#### Á½¶Ë²åÈë²Ù×÷£º
+Á½¶Ë²åÈë²Ù×÷£º
 
 * push_back(elem);       //ÔÚÈİÆ÷Î²²¿Ìí¼ÓÒ»¸öÊı¾İ
 * push_front(elem);       //ÔÚÈİÆ÷Í·²¿²åÈëÒ»¸öÊı¾İ
 * pop_back();                 //É¾³ıÈİÆ÷×îºóÒ»¸öÊı¾İ
 * pop_front();                 //É¾³ıÈİÆ÷µÚÒ»¸öÊı¾İ
 
-#### Ö¸¶¨Î»ÖÃ²Ù×÷£º
+Ö¸¶¨Î»ÖÃ²Ù×÷£º
 
 * insert(pos, elem);         //ÔÚposÎ»ÖÃ²åÈëÒ»¸öelemÔªËØµÄ¿½±´£¬·µ»ØĞÂÊı¾İµÄÎ»ÖÃ¡£
 * insert(pos, n, elem);      //ÔÚposÎ»ÖÃ²åÈën¸öelemÊı¾İ£¬ÎŞ·µ»ØÖµ¡£
@@ -1104,7 +1093,7 @@ void test01()
 * erase(beg, end);            //É¾³ı[beg, end]Çø¼äµÄÊı¾İ£¬·µ»ØÏÂÒ»¸öÊı¾İµÄÎ»ÖÃ
 * erase(pos);                    //É¾³ıposÎ»ÖÃµÄÊı¾İ£¬·µ»ØÏÂÒ»¸öÊı¾İµÄÎ»ÖÃ
 
-### ´úÂëÊ¾Àı£º
+´úÂëÊ¾Àı£º
 
 ```C++
 void test01()
@@ -1175,20 +1164,20 @@ void test03()
 * Í·²å   ---push_front
 * Í·É¾   ---pop_front
 
-## 7.5 deque Êı¾İ´æÈ¡
+#### deque Êı¾İ´æÈ¡
 
-### ¹¦ÄÜÃèÊö£º
+¹¦ÄÜÃèÊö£º
 
 * ¶ÔdequeÖĞµÄÊı¾İµÄ´æÈ¡²Ù×÷
 
-### º¯ÊıÔ­ĞÍ£º
+ º¯ÊıÔ­ĞÍ£º
 
 * at(int idx);       //·µ»ØË÷ÒıidxËùÖ¸µÄÊı¾İ
 * operator[];      //·µ»ØË÷ÒıidxËùÖ¸µÄÊı¾İ
 * front();            //·µ»ØÈİÆ÷ÖĞµÚÒ»¸öÊı¾İÔªËØ
 * back();            //·µ»ØÈİÆ÷ÖĞ×îºóÒ»¸öÊı¾İÔªËØ
 
-### ´úÂëÊ¾Àı£º
+´úÂëÊ¾Àı£º
 
 ```C++
 //dequeÈİÆ÷Êı¾İ´æÈ¡
@@ -1218,23 +1207,23 @@ void test01()
 }
 ```
 
-### ×Ü½á£º
+×Ü½á£º
 
 * ³ıÁËÓÃµü´úÆ÷»ñÈ¡dequeÈİÆ÷ÖĞÔªËØ£¬[]ºÍatÒ²¿ÉÒÔ
 * front·µ»ØÈİÆ÷µÚÒ»¸öÔªËØ
 * back·µ»ØÈİÆ÷×îºóÒ»¸öÔªËØ
 
-## 7.6 dequeÅÅĞò
+#### dequeÅÅĞò
 
-### ¹¦ÄÜÃèÊö£º
+¹¦ÄÜÃèÊö£º
 
 * ÀûÓÃËã·¨ÊµÏÖ¶ÔdequeÈİÆ÷½øĞĞÅÅĞò
 
-### Ëã·¨£º
+Ëã·¨£º
 
 * sort(iterator beg, iterator end)    //¶ÔbegºÍendÇø¼äÄÚÔªËØ½øĞĞÅÅĞò
 
-### ´úÂëÊ¾Àı£º
+´úÂëÊ¾Àı£º
 
 ```C++
 #include<iostream>
@@ -1273,13 +1262,12 @@ int main()
 }
 ```
 
-## 7.7 °¸Àı-ÆÀÎ¯´ò·Ö
-
-### 1. °¸ÀıÃèÊö
+#### °¸Àı-ÆÀÎ¯´ò·Ö
+ °¸ÀıÃèÊö
 
 * ÓĞ5ÃûÑ¡ÊÖ£ºÑ¡ÊÖABCDE£¬10¸öÆÀÎ¯·Ö±ğ¶ÔÃ¿Ò»ÃûÑ¡ÊÖ´ò·Ö£¬È¥³ı×î¸ß·Ö£¬È¥³ıÆÀÎ¯ÖĞ×îµÍ·Ö£¬È¡Æ½¾ù·Ö
 
-2. ÊµÏÖ²½Öè
+ÊµÏÖ²½Öè
 
 * ´´½¨ÎåÃûÑ¡ÊÖ£¬·Åµ½vectorÖĞ
 * ±éÀúvectorÈİÆ÷£¬È¡³öÀ´Ã¿Ò»¸öÑ¡ÊÖ£¬Ö´ĞĞforÑ­»·£¬¿ÉÒÔ°Ñ10¸öÆÀ·Ö´ò·Ö´æµ½dequeÈİÆ÷
@@ -1287,7 +1275,7 @@ int main()
 * dequeÈİÆ÷±éÀúÒ»±é£¬ÀÛ¼Ó×Ü·Ö
 * »ñÈ¡Æ½¾ù·Ö
 
-### Ê¾Àı´úÂë£º
+Ê¾Àı´úÂë£º
 
 ```C++
 #include<iostream>
@@ -1381,9 +1369,9 @@ int main()
 }
 ```
 
-# 8  stackÈİÆ÷
+###2.4 stackÈİÆ÷
 
-### »ù±¾¸ÅÄî
+»ù±¾¸ÅÄî
 
 * stackÊÇÒ»ÖÖÏÈ½øºó³ö(First In Last Out£¬FILO)µÄÊı¾İ½á¹¹£¬ËüÖ»ÓĞÒ»¸ö³ö¿Ú
 * Õ»ÖĞÖ»ÓĞ¶¥¶ËµÄÔªËØ²Å¿ÉÒÔ±»Íâ½çÊ¹ÓÃ£¬Òò´ËÕ»²»ÔÊĞíÓĞ±éÀúĞĞÎª
@@ -1391,7 +1379,7 @@ int main()
 * Õ»¿ÉÒÔ·µ»ØÔªËØ¸öÊı£ºsize()
 * ½øÕ»£ºpush()£¬³öÕ»£ºpop()
 
-### ³£ÓÃ½Ó¿Ú
+³£ÓÃ½Ó¿Ú
 
 ¹¦ÄÜÃèÊö£ºÕ»ÈİÆ÷³£ÓÃµÄ¶ÔÍâ½Ó¿Ú¹¹Ôìº¯Êı£º
 
@@ -1413,7 +1401,7 @@ int main()
 * empty();            //ÅĞ¶Ï¶ÑÕ»ÊÇ·ñÎª¿Õ
 * size();                //·µ»ØÕ»µÄ´óĞ¡
 
-### ´úÂëÊ¾Àı
+´úÂëÊ¾Àı
 
 ```C++
 #include<iostream>
@@ -1446,15 +1434,15 @@ int main()
 }
 ```
 
-# 9 queueÈİÆ÷
+### 2.5 queueÈİÆ÷
 
-### »ù±¾¸ÅÄî
+»ù±¾¸ÅÄî
 
 * QueueÊÇÒ»ÖÖÏÈ½øÏÈ³ö(First In First Out£¬FIFO)µÄÊı¾İ½á¹¹£¬ËüÓĞÁ½¸ö³ö¿Ú
 * ¶ÓÍ·£ºfront()£¬¶ÓÎ²£ºback()£¬Èë¶Ó£ºpush()£¬³ö¶Ó£ºpop()
 * Ö»ÓĞÁ½¶Ë¿ÉÒÔ±»·ÃÎÊ£¬²»ÔÊĞíÓĞ±éÀúĞĞÎª
 
-### ³£ÓÃ½Ó¿Ú
+³£ÓÃ½Ó¿Ú
 
 ¹¦ÄÜÃèÊö£ºÕ»ÈİÆ÷³£ÓÃµÄ¶ÔÍâ½Ó¿Ú¹¹Ôìº¯Êı£º
 
@@ -1477,7 +1465,7 @@ int main()
 * empty();            //ÅĞ¶Ï¶ÑÕ»ÊÇ·ñÎª¿Õ
 * size();                //·µ»ØÕ»µÄ´óĞ¡
 
-### ´úÂëÊ¾Àı
+´úÂëÊ¾Àı
 
 ```C++
 #include<iostream>
@@ -1530,9 +1518,9 @@ int main()
 }
 ```
 
-# 10 listÈİÆ÷
+### 2.6 listÈİÆ÷
 
-### »ù±¾¸ÅÄî
+»ù±¾¸ÅÄî
 
 * ¹¦ÄÜ£º½«Êı¾İ½øĞĞÁ´Ê½´æ´¢
 * Á´±í(list)ÊÇÒ»ÖÖÎïÀí´æ´¢µ¥ÔªÉÏ·ÇÁ¬ĞøµÄ´æ´¢½á¹¹£¬Êı¾İÔªËØµÄÂß¼­Ë³ĞòÊÇÍ¨¹ıÁ´±íÖĞµÄÖ¸ÕëÁ´½ÓÊµÏÖµÄ
@@ -1543,34 +1531,34 @@ int main()
 * È±µã£ºÈİÆ÷µÄ±éÀúËÙ¶È²»ÈçÊı×é£¬Õ¼ÓÃ¿Õ¼ä±ÈÊı×é´ó
 * ÓÉÓÚÁ´±íµÄ´æ´¢·½Ê½²»ÊÇÁ¬ĞøµÄÄÚ´æ£¬ÊôÓÚË«Ïòµü´úÆ÷
 
-### listµÄÓÅµã
+listµÄÓÅµã
 
 * ²ÉÓÃ¶¯Ì¬´æ´¢·ÖÅä£¬²»»áÔì³ÉÄÚ´æÀË·ÑºÍÒç³ö
 * Á´±íÖ´ĞĞ²åÈëºÍÉ¾³ı²Ù×÷Ê®·Ö·½±ã£¬ĞŞ¸ÄÖ¸Õë¼´¿É£¬²»ĞèÒªÒÆ¶¯´óÁ¿ÔªËØ
 
-### listµÄÈ±µã
+listµÄÈ±µã
 
 * Á´±íÁé»î£¬µ«ÊÇ¿Õ¼ä(Ö¸ÕëÓò)ºÍÊ±¼ä(±éÀú)¶îÍâºÄ·Ñ½Ï´ó
   listÓĞÒ»¸öÖØÒªµÄĞÔÖÊ£¬²åÈë²Ù×÷ºÍÉ¾³ı²Ù×÷¶¼²»»áÔì³ÉÔ­ÓĞlistµü´úÆ÷µÄÊ§Ğ§£¬ÕâÔÚvectorÊÇ²»³ÉÁ¢µÄ
 
-### ×Ü½á
+×Ü½á
 
 STLÖĞlistºÍvectorÊÇÁ½¸ö×î³£±»Ê¹ÓÃµÄÈİÆ÷£¬¸÷ÓĞÓÅÈ±µã
 
-## 10.1 list¹¹Ôìº¯Êı
+#### list¹¹Ôìº¯Êı
 
-### ¹¦ÄÜÃèÊö
+¹¦ÄÜÃèÊö
 
 * ´´½¨listÈİÆ÷
 
-### º¯ÊıÔ­ĞÍ
+º¯ÊıÔ­ĞÍ
 
 * list<T>lst;                   //list²ÉÓÃÄ£°åÀàÊµÏÖ£¬¶ÔÏóµÄÄ¬ÈÏ¹¹ÔìĞÎÊ½
 * list(beg, end);             //¹¹Ôìº¯Êı½«[beg, end]Çø¼äÖĞµÄÔªËØ¿½±´¸ø±¾Éí
 * list(n, elem);               //¹¹Ôìº¯Êı½«n¸öelem¿½±´¸ø±¾Éí
 * list(const list &lst);    //¿½±´¹¹Ôìº¯Êı
 
-### ´úÂëÊ¾Àı
+´úÂëÊ¾Àı
 
 ```C++
 //listÈİÆ÷¹¹Ôìº¯Êı
@@ -1605,20 +1593,20 @@ void test()
 }
 ```
 
-# 10.2 list ÈİÆ÷¸³ÖµºÍ½»»»
+#### list ÈİÆ÷¸³ÖµºÍ½»»»
 
 ###¹¦ÄÜÃèÊö£º
 
 * ¸ølistÈİÆ÷½øĞĞ¸³Öµ£¬ÒÔ¼°½»»»listÈİÆ÷
 
-### º¯ÊıÔ­ĞÍ
+º¯ÊıÔ­ĞÍ
 
 * assign(beg, end);                               //½«[beg, end]Çø¼äÖĞµÄÊı¾İ¿½±´¸³Öµ¸ø±¾Éí
 * assign(n, elem);                                 //½«n¸öelem¿½±´¸³Öµ¸ø±¾Éí
 * list&  operator=(const list &lst);      //ÖØÔØµÈºÅ²Ù×÷·û
 * swap(lst);                                          //½«lstÓë±¾ÉíµÄÔªËØ»¥»»
 
-### ´úÂëÊ¾Àı
+´úÂëÊ¾Àı
 
 ```C++
    
@@ -1670,17 +1658,22 @@ void exchange()
    printList(L2);
 }
 ```
-## 10.3 List´óĞ¡²Ù×÷  
-### ¹¦ÄÜÃèÊö
-* ¶ÔlistÈİÆ÷µÄ´óĞ¡½øĞĞ²Ù×÷  
 
-### º¯ÊıÔ­ĞÍ  
+#### List´óĞ¡²Ù×÷
+
+¹¦ÄÜÃèÊö
+
+* ¶ÔlistÈİÆ÷µÄ´óĞ¡½øĞĞ²Ù×÷
+
+º¯ÊıÔ­ĞÍ
+
 * size();                            //·µ»ØÈİÆ÷ÖĞÔªËØµÄ¸öÊı
 * empty();                        //ÅĞ¶ÏÈİÆ÷ÊÇ·ñÎª¿Õ
 * resize(num);                 //ÖØĞÂÖ¸¶¨ÈİÆ÷µÄ³¤¶ÈÎªnum£¬ÈôÈİÆ÷±ä³¤£¬ÔòÒÔÄ¬ÈÏÖµÌî³äĞÂÎ»ÖÃ£¬Èç¹ûÈİÆ÷±ä¶Ì£¬ÔòÄ©Î²³¬³öÈİÆ÷³¤¶ÈµÄÔªËØ±»É¾³ı
 * resize(num, elem);       //ÖØĞÂÖ¸¶¨ÈİÆ÷µÄ³¤¶ÈÎªnum£¬ÈôÈİÆ÷±ä³¤£¬ÔòÒÔelemÖµÌî³äĞÂÎ»ÖÃ£¬Èç¹ûÈİÆ÷±ä¶Ì£¬ÔòÄ©Î²³¬³öÈİÆ÷³¤¶ÈµÄÔªËØ±»É¾³ı
 
-### ´úÂëÊ¾Àı
+´úÂëÊ¾Àı
+
 ```C++
 void printList(const list<int>&L)
 {
@@ -1713,19 +1706,2047 @@ void size()
    L1.resize(10, 1000);
    printList(L1);
 }
-```  
-# 10.4 List²åÈëºÍÉ¾³ı  
-### ¹¦ÄÜÃèÊö
+```
+
+#### List²åÈëºÍÉ¾³ı
+
+¹¦ÄÜÃèÊö
+
 * ¶ÔlistÈİÆ÷½øĞĞÊı¾İµÄ²åÈëºÍÉ¾³ı
-### º¯ÊıÔ­ĞÍ  
+
+º¯ÊıÔ­ĞÍ
+
 * push_back(elem);                  //ÔÚÈİÆ÷Î²²¿¼ÓÈëÒ»¸öÔªËØ
 * pop_back();                          //É¾³ıÈİÆ÷ÖĞ×îºóÒ»¸öÔªËØ
 * push_front(elem);                //ÔÚÈİÆ÷¿ªÍ·²åÈëÒ»¸öÔªËØ
 * pop_front();                         //´ÓÈİÆ÷¿ªÍ·ÒÆ³ıµÚÒ»¸öÔªËØ
-*  insert(pos, elem);               //ÔÚposÎ»ÖÃ²åelemÔªËØµÄ¿½±´£¬·µ»ØĞÂÊı¾İµÄÎ»ÖÃ
-*  insert(pos, n, elem);           //ÔÚposÎ»ÖÃ²åÈën¸öelemÊı¾İ£¬ÎŞ·µ»ØÖµ
-*  insert(pos, beg, end);        //ÔÚposÎ»ÖÃ²åÈë[beg, end]Çø¼äµÄÊı¾İ£¬ÎŞ·µ»ØÖµ
-*  clear();                               //ÒÆ³ıÈİÆ÷µÄËùÓĞÊı¾İ
-*  erase(beg, end);                //É¾³ı[beg, end]Çø¼äµÄÊı¾İ£¬·µ»ØÏÂÒ»¸öÊı¾İµÄÎ»ÖÃ
-*  erase(pos);                        //É¾³ı[beg, end]Çø¼äµÄÊı¾İ£¬·µ»ØÏÂÒ»¸öÊı¾İµÄÎ»ÖÃ
-*  remove(elem);                 //É¾³ıÈİÆ÷ÖĞËùÓĞÓëelemÖµÆ¥ÅäµÄÔªËØ
+* insert(pos, elem);               //ÔÚposÎ»ÖÃ²åelemÔªËØµÄ¿½±´£¬·µ»ØĞÂÊı¾İµÄÎ»ÖÃ
+* insert(pos, n, elem);           //ÔÚposÎ»ÖÃ²åÈën¸öelemÊı¾İ£¬ÎŞ·µ»ØÖµ
+* insert(pos, beg, end);        //ÔÚposÎ»ÖÃ²åÈë[beg, end]Çø¼äµÄÊı¾İ£¬ÎŞ·µ»ØÖµ
+* clear();                               //ÒÆ³ıÈİÆ÷µÄËùÓĞÊı¾İ
+* erase(beg, end);                //É¾³ı[beg, end]Çø¼äµÄÊı¾İ£¬·µ»ØÏÂÒ»¸öÊı¾İµÄÎ»ÖÃ
+* erase(pos);                        //É¾³ı[beg, end]Çø¼äµÄÊı¾İ£¬·µ»ØÏÂÒ»¸öÊı¾İµÄÎ»ÖÃ
+* remove(elem);                 //É¾³ıÈİÆ÷ÖĞËùÓĞÓëelemÖµÆ¥ÅäµÄÔªËØ
+
+´úÂëÊ¾Àı
+
+```C++
+void printList(const list<int>&L)
+{
+    for (list<int>:: const_iterator  it=L.begin(); it!=L.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+}
+void test()
+{
+    list<int> L1;
+    //Î²²å
+    L1.push_back(10);
+    L1.push_back(20);
+    L1.push_back(30);
+    L1.push_back(40);
+    //Î²²å
+    L1.push_front(100);
+    L1.push_front(200);
+    L1.push_front(300);
+    L1.push_front(400);
+    printList(L1);
+    //Î²É¾
+    L1.pop_back();
+    //300, 200, 100, 10, 20
+    printList(L1);
+    //Í·É¾
+    L1.pop_front();
+    printList(L1);
+    //insert²åÈë
+    list<int>:: iterator  it=L1.begin();
+    L1.insert(++it, 1000);
+    L1.insert(L1.begin(), 1000);
+    //1000  200  100  10  20
+    printList(L1);
+    //É¾³ı
+    it=L1.begin();
+    L1.erase(it);
+    //200 100 10  20
+    printList(L1);
+    //ÒÆ³ı
+    L1.push_back(10000);
+    printList(L1);
+    L1.remove(1000);
+    //Çå¿Õ
+    L1.clear();
+    printList(L1);
+}
+```
+
+#### listÊı¾İ´æÈ¡
+
+¹¦ÄÜÃèÊö
+
+* ¶ÔlistÈİÆ÷ÖĞÊı¾İ½øĞĞ´æÈ¡
+
+º¯ÊıÔ­ĞÍ
+
+* front();                                          //·µ»ØµÚÒ»¸öÔªËØ
+* back();                                          //·µ»Ø×îºóÒ»¸öÔªËØ
+
+´úÂëÊ¾Àı
+
+```C++
+void printList(const list<int>&L)
+{
+    for (list<int>:: const_iterator  it=L.begin(); it!=L.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+}
+void test()
+{
+     list<int> L1;
+    L1.push_back(10);
+    L1.push_back(20);
+    L1.push_back(30);
+    L1.push_back(40);
+    //L1(0)   ²»¿ÉÒÔÓÃ[]·ÃÎÊlistÈİÆ÷ÖĞµÄÔªËØ
+    //L1.at(0);   ²»¿ÉÒÔÓÃat·½Ê½·ÃÎÊlistÈİÆ÷ÖĞµÄÔªËØ
+    //Ô­ÒòÊÇlist±¾ÖÊÁ´±í£¬²»ÊÇÓÃÁ¬ĞøĞÔ¿Õ¼ä´æ´¢Êı¾İ£¬µü´úÆ÷Ò²ÊÇ²»Ö§³ÖËæ»ú·ÃÎÊµÄ
+    cout<<"µÚÒ»¸öÔªËØÎª£º"<<L1.front()<<endl;
+    cout<<"×îºóÒ»¸öÔªËØÎª£º"<<L1.back()<<endl;
+    //ÑéÖ¤µü´úÆ÷ÊÇ²»Ö§³ÖËæ»ú·ÃÎÊ
+    list<int>::iterator it=L1.begin();
+    //it=it+2;  ±¨´í
+    it++;      //ÕıÈ·
+    it--;       //²»Ö§³ÖËæ»ú·ÃÎÊ
+}
+```
+
+#### list ·´×ªºÍÅÅĞò
+¹¦ÄÜÃèÊö
+
+* ½«ÈİÆ÷ÖĞµÄÔªËØ·´×ª£¬ÒÔ¼°½«ÈİÆ÷ÖĞµÄÊı¾İ½øĞĞÅÅĞò
+
+º¯ÊıÔ­ĞÍ
+
+* reverse()     //·´×ªÁ´±í
+* sort()          //Á´±íÅÅĞò
+
+´úÂëÊ¾Àı
+
+```C++
+#include<iostream>
+#include<list>
+using namespace std;
+//list ·´×ªºÍÅÅĞò
+void printList(const list<int>&L)
+{
+    for (list<int>:: const_iterator  it=L.begin(); it!=L.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+}
+bool myCompare(int v1, int v2)
+{
+    //½µĞò
+    return v1>v2;
+}
+void test()
+{
+    //·´×ª
+    list<int> L1;
+    L1.push_back(20);
+    L1.push_back(10);
+    L1.push_back(40);
+    L1.push_back(30);
+    cout<<"·´×ªÇ°£º"<<endl;
+    L1.reverse();
+    cout<<"·´×ªºó£º"<<endl; 
+    printList(L1);
+    //ÅÅĞò
+    cout<<"ÅÅĞòÇ°£º"<<endl;
+    printList(L1);
+    L1.sort();   //Ä¬ÈÏÉıĞò
+    cout<<"ÅÅĞòºó£º"<<endl;
+    printList(L1);
+    //ËùÓĞ²»Ö§³ÖËæ»ú·ÃÎÊµü´úÆ÷µÄÈİÆ÷£¬²»¿ÉÒÔÓÃ±ê×¼Ëã·¨
+    //²»Ö§³ÖËæ»ú·ÃÎÊµü´úÆ÷µÄÈİÆ÷£¬ÄÚ²¿»áÌá¹©¶ÔÓ¦Ò»Ğ©Ëã·¨
+    L1.sort(myCompare);
+    cout<<"ÅÅĞòºó£º"<<endl;
+    printList(L1);
+}
+int main()
+{
+    test();
+    system("pause");
+    return 0;
+}
+```
+
+#### ÅÅĞò°¸Àı
+
+°¸ÀıÃèÊö
+
+* ½«Perosn×Ô¶¨ÒåÊı¾İÀàĞÍ½øĞĞÅÅĞò£¬PersonÖĞÊôĞÔÓĞĞÕÃû¡¢ÄêÁä¡¢Éí¸ß
+* ÅÅĞò¹æÔò£º°´ÕÕÄêÁä½øĞĞÉıĞò£¬Èç¹ûÄêÁäÏàÍ¬°´ÕÕÉí¸ß½øĞĞ½µĞò
+
+´úÂëÊ¾Àı
+
+```C++
+#include<iostream>
+#include<list>
+using namespace std;
+//listÈİÆ÷  ÅÅĞò°¸Àı  ¶ÔÓÚ×Ô¶¨ÒåÊı¾İÀàĞÍ  ×öÅÅĞò
+//°´ÕÕÄêÁä½øĞĞÉıĞò£¬Èç¹ûÄêÁäÏàÍ¬°´ÕÕÉí¸ß½øĞĞ½µĞò
+class Person
+{
+public:
+     Person(string name, int age, int height)
+     {
+         this->m_Name=name;
+         this->m_Age=age;
+         this->m_Height=height;
+     }
+     string m_Name;
+     int m_Age;
+     int m_Height;
+};
+void printList(const list<int>&L)
+{
+    for (list<int>:: const_iterator  it=L.begin(); it!=L.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+}
+bool myCompare(int v1, int v2)
+{
+    //½µĞò
+    return v1>v2;
+}
+//Ö¸¶¨ÅÅĞò¹æÔò
+bool comparePerson(Person &p1, Person &p2)
+{
+    //°´ÕÕÄêÁä£¬ÉıĞò
+    if (p1.m_Age==p2.m_Age)
+    {
+        return p1.m_Height<<p2.m_Height;
+    }
+    return p1.m_Age<p2.m_Age;
+}
+void test()
+{
+    //·´×ª
+    list<Person> L;
+   //Êı¾İÌîÈë
+   Person p1("Áõ±¸", 35, 163);
+   Person p2("ÕÅ·É", 39, 168); 
+   Person p3("¹ØÓğ", 34, 176);
+   Person p4("²Ü²Ù", 41, 170);
+   Person p5("ÖÜè¤", 43, 180);
+   Person p6("ÕÔÔÆ", 35, 178);
+   //µ¯ÈëÈİÆ÷
+   L.push_back(p1);
+   L.push_back(p2);
+   L.push_back(p3);
+   L.push_back(p4);
+   L.push_back(p5);
+   for (list<Person>:: iterator it=L.begin(); it!=L.end(); it++)
+   {
+       cout<<"ĞÕÃû£º"<<(*it).m_Name
+              <<" ÄêÁä £º"<<it->m_Age
+              <<" Éí¸ß £º"<<it->m_Height<<endl;
+   }
+   //ÅÅĞò
+   cout<<"------------------------------------------"<<endl;
+   cout<<"-------------------ÅÅĞòºó---------------"<<endl;
+   L.sort(comparePerson);
+   for (list<Person>:: iterator it=L.begin(); it!=L.end(); it++)
+   {
+       cout<<"ĞÕÃû£º"<<(*it).m_Name
+              <<" ÄêÁä £º"<<it->m_Age
+              <<" Éí¸ß £º"<<it->m_Height<<endl;
+   }
+}
+int main()
+{
+    test();
+    system("pause");
+    return 0;
+}   
+```
+
+### 2.7 set/multisetÈİÆ÷
+
+»ù±¾¸ÅÄî
+
+* ËùÓĞÔªËØ¶¼»áÔÚ²åÈëÊ±×Ô¶¯±»ÅÅĞò
+
+±¾ÖÊ
+
+* set/multisetÊôÓÚ¹ØÁªÊ½ÈİÆ÷£¬µ×²ã½á¹¹ÊÇÓÃ¶ş²æÊ÷ÊµÏÖ
+
+setºÍmultisetÇø±ğ
+
+* set ²»ÔÊĞíÈİÆ÷ÖĞÓĞÖØ¸´µÄÔªËØ
+* multisetÔÊĞíÈİÆ÷ÖĞÓĞÖØ¸´µÄÔªËØ
+
+#### set¹¹ÔìºÍ¸³Öµ
+
+´úÂëÊ¾Àı
+
+```C++
+#include<iostream>
+#include<set>
+using namespace  std;
+void printSet(set<int>&s)
+{
+    for (set<int>::iterator it=s.begin(); it!=s.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+}
+//setÈİÆ÷¹¹ÔìºÍ¸³Öµ
+void test()
+{
+    set<int>s;
+    //²åÈëÊı¾İ£¬Ö»ÄÜÓÃinsert·½Ê½
+    s.insert(10);
+    s.insert(20);
+    s.insert(30);
+    s.insert(40);
+    s.insert(50);
+    //±éÀúÈİÆ÷
+    //setÈİÆ÷ÌØµã£¬ËùÓĞÔªËØ²åÈëÊ±ºò×Ô¶¯ÅÅĞò
+    //setÈİÆ÷²»ÔÊĞí²åÈëÖØ¸´Öµ
+    printSet(s);
+    //¿½±´¹¹Ôì
+    set<int>s2(s);
+    printSet(s2);
+    //¸³Öµ
+    set<int>s3;
+    s3=s2;
+    printSet(s3);
+}
+int main()
+{
+    test();
+    system("pause");
+    return 0;
+}
+```
+
+#### set´óĞ¡ºÍ½»»»
+
+¹¦ÄÜÃèÊö
+
+* Í³¼ÆsetÈİÆ÷ÒÔ¼°½»»»setÈİÆ÷
+
+º¯ÊıÔ­ĞÍ
+
+* size();     //·µ»ØÈİÆ÷ÖĞÔªËØµÄÊıÄ¿
+* empty();    //ÅĞ¶ÏÈİÆ÷ÊÇ·ñÎª¿Õ
+* swap();      //½»»»Á½¸ö¼¯ºÏÈİÆ÷
+
+´úÂëÊ¾Àı
+
+```C++
+#include<iostream>
+#include<set>
+using namespace  std;
+void printSet(set<int>&s)
+{
+    for (set<int>::iterator it=s.begin(); it!=s.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+}
+//setÈİÆ÷´óĞ¡ºÍ½»»»
+//´óĞ¡
+void size()
+{
+    set<int>s;
+    //²åÈëÊı¾İ£¬Ö»ÄÜÓÃinsert·½Ê½
+    s.insert(10);
+    s.insert(20);
+    s.insert(30);
+    s.insert(40);
+    s.insert(50);
+    //´òÓ¡ÈİÆ÷
+    printSet(s);
+    //ÅĞ¶ÏÊÇ·ñÎª¿Õ
+    if (s.empty())
+    {
+        cout<<"sÎª¿Õ"<<endl;
+    }
+    else
+    {
+        cout<<"s²»Îª¿Õ"<<endl;
+        cout<<"sµÄ´óĞ¡"<<s.size()<<endl;
+    }
+}
+//½»»»
+void exchange()
+{
+    set<int>s;
+    //²åÈëÊı¾İ£¬Ö»ÄÜÓÃinsert·½Ê½
+    set<int>s1;
+    //²åÈëÊı¾İ£¬Ö»ÄÜÓÃ insert·½Ê½
+    s.insert(10);
+    s.insert(20);
+    s.insert(30);
+    s.insert(40);
+    s.insert(50);
+    s1.insert(60);
+    s1.insert(70);
+    s1.insert(80);
+    s1.insert(90);
+    s1.insert(100);
+    cout<<"½»»»Ç°£º"<<endl;
+    printSet(s);
+    printSet(s1);
+    s1.swap(s);
+    cout<<"½»»»ºó£º"<<endl;
+    printSet(s);
+    printSet(s1);
+}
+```
+
+#### set²åÈëºÍÉ¾³ı
+
+¹¦ÄÜÃèÊö
+
+* setÈİÆ÷½øĞĞ²åÈëÊı¾İºÍÉ¾³ıÊı¾İ
+
+º¯ÊıÔ­ĞÍ
+
+* insert(elem);             //ÔÚÈİÆ÷ÖĞ²åÈëÔªËØ
+* clean();                     //Çå³ıËùÓĞÔªËØ
+* erase(pos);               //É¾³ıposµü´úÆ÷ËùÖ¸µÄÔªËØ£¬·µ»ØÏÂÒ»¸öÔªËØµÄµü´úÆ÷
+* erase(beg, end);       //É¾³ıÇø¼ä[beg, end]µÄËùÓĞÔªËØ£¬·µ»ØÏÂÒ»¸öÔªËØµÄµü´úÆ÷
+* erase(elem);             //É¾³ıÈİÆ÷ÖĞÖµÎªelemµÄÔªËØ
+
+´úÂëÊ¾Àı
+
+```C++
+void printSet(set<int>&s)
+{
+    for (set<int>::iterator it=s.begin(); it!=s.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+}
+void test()
+{
+    set<int>s;
+    //²åÈë
+    s.insert(10);
+    s.insert(20);
+    s.insert(30);
+    s.insert(40);
+    //±éÀú
+    printSet(s);
+    //É¾³ı
+    s.erase(s.begin());
+    printSet(s);
+    //É¾³ıÖØÔØ°æ±¾
+    s.erase(30);
+    printSet(s);
+    //Çå¿Õ
+    //s.erase(s.begin(), s.end());
+    s.clear();
+    printSet(s);
+}
+```
+
+* ²åÈë  ---insert
+* É¾³ı  ---erase
+* Çå¿Õ  ---clear
+
+####set²éÕÒºÍÍ³¼Æ
+
+¹¦ÄÜÃèÊö
+
+* ¶ÔsetÈİÆ÷½øĞĞ²éÕÒÊı¾İÒÔ¼°Í³¼ÆÊı¾İ
+
+º¯ÊıÔ­ĞÍ
+
+* find(key);    //²éÕÒkeyÊÇ·ñ´æÔÚ£¬Èô´æÔÚ£¬·µ»Ø¸Ã¼üµÄÔªËØµÄµü´úÆ÷£¬Èô²»´æÔÚ£¬·µ»Øset.end();
+* count(key);   //Í³¼ÆkeyµÄÔªËØ¸öÊı
+
+´úÂëÊ¾Àı
+
+```C++
+//setÈİÆ÷²éÕÒºÍÍ³¼Æ
+void test01()
+{
+    set<int>s;
+    //²åÈëÊı¾İ£¬Ö»ÄÜÓÃinsert·½Ê½
+    s.insert(10);
+    s.insert(20);
+    s.insert(30);
+    s.insert(40);
+    s.insert(50);
+    //²éÕÒ
+    set<int>:: iterator pos =s.find(30);
+    if (pos!=s.end())
+    {
+        cout<<"ÕÒµ½ÔªËØ£º"<<endl;
+    }
+}
+void test02()
+{
+    //²éÕÒ
+    set<int>s;
+    //²åÈëÊı¾İ
+    s.insert(10);
+    s.insert(20);
+    s.insert(30);
+    s.insert(40);
+    s.insert(50);
+    //Í³¼Æ30µÄ¸öÊı
+    int num=s.count(30);
+    cout<<"¸öÊı£º"<<num<<endl;
+}
+```  
+#### setºÍmultisetÇø±ğ
+Ñ§Ï°Ä¿±ê
+* ÕÆÎÕsetºÍmultisetµÄÇø±ğ
+Çø±ğ
+* set²»¿ÉÒÔ²åÈëÖØ¸´Êı¾İ£¬¶ømultiset¿ÉÒÔ
+* set²åÈëÊı¾İµÄÍ¬Ê±»á·µ»Ø²åÈë½á¹û£¬Òò´Ë¿ÉÒÔ²åÈëÖØ¸´Êı¾İ
+´úÂëÊ¾Àı
+```C++
+//setºÍmutisetÇø±ğ
+void test01()
+{
+    set<int> s;
+    pair<set<int>::iterator, bool> ret=s.insert(10);
+    if (ret.second)
+    {
+        cout<<"µÚÒ»´Î²åÈë³É¹¦"<<endl;
+    }
+    else
+    {
+        cout<<"µÚÒ»´Î²åÈëÊ§°Ü"<<endl;
+    }
+    ret=s.insert(10);
+     if (ret.second)
+    {
+        cout<<"µÚÒ»´Î²åÈë³É¹¦"<<endl;
+    }
+    else
+    {
+        cout<<"µÚÒ»´Î²åÈëÊ§°Ü"<<endl;
+    }
+    multiset<int>ms;
+    //ÔÊĞí²åÈëÖØ¸´Öµ
+    ms.insert(10);
+    ms.insert(10);
+    for (set<int>::iterator it=ms.begin(); it!=ms.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+}
+```  
+#### pair¶Ô×é´´½¨  
+ ¹¦ÄÜÃèÊö  
+* ³É¶Ô³öÏÖµÄÊı¾İ£¬ÀûÓÃ¶Ô×é¿ÉÒÔ·µ»ØÁ½¸öÊı¾İ
+Á½ÖÖ´´½¨·½Ê½
+* pair<type, type>p(valuel, value);
+* pair<type, type>p=make_pair(value1, value2);
+´úÂëÊ¾Àı
+```C++
+void test()
+{
+    //µÚÒ»ÖÖ·½Ê½
+    pair<string,int>p1("Ton", 20);
+    cout<<"ĞÕÃû£º"<<p1.first<<"ÄêÁä£º"<<p1.second<<endl;
+    //µÚ¶şÖÖ·½Ê½
+    pair<string, int>p2=make_pair("jenrry", 10);
+    cout<<"ĞÕÃû£º"<<p2.first<<"ÄêÁä£º"<<p2.second<<endl;
+}
+```
+#### setÈİÆ÷ÅÅĞò
+* setÈİÆ÷Ä¬ÈÏÅÅĞò¹æÔòÎª´ÓĞ¡µ½´ó£¬ÕÆÎÕÈçºÎ¸Ä±äÅÅĞò¹æÔò
+* ÀûÓÃ·Âº¯Êı£¬¿ÉÒÔ¸Ä±äÅÅĞò¹æÔò
+´úÂëÊ¾Àı
+```C++
+/¶¨ÒåsetÈİÆ÷ÅÅĞò¹æÔò
+class MyCompare
+{
+public:
+    bool operator()(int v1, int v2)
+    {
+        //½µĞò
+        return v1>v2;
+    }
+};
+//setÈİÆ÷  ÅÅĞò°¸Àı  ¶ÔÓÚÄÚÖÃÊı¾İÀàĞÍ  ×öÅÅĞò
+void test01()
+{
+    set<int, MyCompare>s;
+    s.insert(10);
+    s.insert(20);
+    s.insert(30);
+    s.insert(40);
+    s.insert(50);
+    for (set<int, MyCompare>:: const_iterator  it=s.begin(); it!=s.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+}
+//set ÈİÆ÷×Ô¶¨ÒåÊı¾İÀàĞÍ½øĞĞÅÅĞò£¬°´ÕÕÄêÁä½øĞĞÉıĞò£¬Èç¹ûÄêÁäÏàÍ¬°´ÕÕÉí¸ß½øĞĞ½µĞò
+class Person
+{
+public:
+     Person(string name, int age, int height)
+     {
+         this->m_Name=name;
+         this->m_Age=age;
+         this->m_Height=height;
+     }
+     string m_Name;
+     int m_Age;
+     int m_Height;
+};
+class ComparePerosn
+{
+public:
+    bool operator()(const Person &p1, const Person &p2)
+    {
+        //°´ÕÕÄêÁä£¬ÉıĞò
+        return p1.m_Height>p2.m_Height;
+    }
+};
+void test02()
+{
+   set<Person, ComparePerosn> s;
+   //Êı¾İÌîÈë
+   Person p1("Áõ±¸", 35, 163);
+   Person p2("ÕÅ·É", 39, 168); 
+   Person p3("¹ØÓğ", 34, 176);
+   Person p4("²Ü²Ù", 41, 170);
+   Person p5("ÖÜè¤", 43, 180);
+   Person p6("ÕÔÔÆ", 35, 178);
+   //µ¯ÈëÈİÆ÷
+   s.insert(p1);
+   s.insert(p2);
+   s.insert(p3);
+   s.insert(p4);
+   s.insert(p5);
+      //ÅÅĞò
+   cout<<"------------------------------------------"<<endl;
+   cout<<"-------------------ÅÅĞòºó---------------"<<endl;
+   for (set<Person, ComparePerosn>:: iterator it=s.begin(); it!=s.end(); it++)
+   {
+       cout<<"ĞÕÃû£º"<<(*it).m_Name
+              <<" ÄêÁä £º"<<it->m_Age
+              <<" Éí¸ß £º"<<it->m_Height<<endl;
+   }
+}
+```  
+### 2.8mapÈİÆ÷
+#### map»ù±¾¸ÅÄî  
+¼ò½é
+* mapÖĞËùÓĞÔªËØÊÇpair
+* pairÖĞµÚÒ»¸öÔªËØÎªkey(¼üÖµ)£¬Æğµ½Ë÷Òı×÷ÓÃ£¬µÚ¶ş¸öÔªËØÎªvalue(ÊµÖµ)
+* ËùÓĞÔªËØ¶¼»á¸ù¾İÔªËØµÄ¼üÖµ×Ô¶¯ÅÅĞò
+ ±¾ÖÊ  
+* map/multimapÊôÓÚ¹ØÁªÊ½ÈİÆ÷£¬µ×²ã½á¹¹ÊÇÓÃ¶ş²æÊ÷ÊµÏÖ¡£
+ÓÅµã  
+* ¿ÉÒÔ¸ù¾İkeyÖµ¿ìËÙÕÒµ½valueÖµ£¬mapºÍmultimapÇø±ğ£ºmap²»ÔÊĞíÈİÆ÷ÖĞÓĞÖØ¸´keyÖµÔªËØ
+* multimapÔÊĞíÈİÆ÷ÖĞÓĞÖØ¸´keyÖµÔªËØ
+####12.2 map¹¹ÔìºÍ¸³Öµ
+¹¦ÄÜÃèÊö
+* ¶ÔmapÈİÆ÷½øĞĞ¹¹ÔìºÍ¸³Öµ²Ù×÷
+º¯ÊıÔ­ĞÍ
+* map<T1, T2>mp;     //map¹¹Ôìº¯Êı
+* map(const map &mp);  //¿½±´¹¹Ôìº¯Êı
+ ¸³Öµ
+* map& operator=(const, map&mp);   //ÖØÔØµÈºÅ²Ù×÷·û
+´úÂëÊ¾Àı
+```C++
+void test01()
+{
+    //´´½¨mapÈİÆ÷
+    map<int, int>m;
+    m.insert(pair<int, int>(90, 80));
+    m.insert(pair<int, int>(10, 20));
+    m.insert(pair<int, int>(30, 40));
+    m.insert(pair<int, int>(50, 60));
+    printMap(m);
+    //¿½±´¹¹Ôì
+    map<int, int>m2(m);
+    printMap(m2);
+    //¸³Öµ
+    map<int, int>m3;
+    m3=m2;
+    printMap(m3);
+}
+```
+#### map´óĞ¡ºÍ½»»»  
+¹¦ÄÜÃèÊö  
+* Í³¼ÆmapÈİÆ÷´óĞ¡ÒÔ¼°½»»»mapÈİÆ÷
+º¯ÊıÔ­ĞÍ
+* size();       //·µ»ØÈİÆ÷ÖĞÔªËØµÄÊıÄ¿
+* empty();   //ÅĞ¶ÏÈİÆ÷ÊÇ·ñÎª¿Õ
+* swap(st);  //½»»»Á½¸öÈİÆ÷
+´úÂëÊ¾Àı
+```C++
+//mapÈİÆ÷´óĞ¡ºÍ½»»»
+void test()
+{
+    map<int, int>m;
+    m.insert(pair<int, int>(10, 20));
+    m.insert(pair<int, int>(10, 20));
+    m.insert(pair<int, int>(30, 40));
+    m.insert(pair<int, int>(50, 60));
+    if (m.empty())
+    {
+        cout<<"mÈİÆ÷Îª¿Õ";
+    }
+    else
+    {
+        cout<<"mÈİÆ÷²»Îª¿Õ"<<m.size()<<endl;
+    }
+    printMap(m);
+    map<int, int>m1;
+    m1.insert(pair<int, int>(12, 13));
+    m1.insert(pair<int, int>(14, 15));
+    m1.insert(pair<int, int>(16, 17));
+    m1.insert(pair<int, int>(18, 19));
+    cout<<"½»»»Ç°"<<endl;
+    m1.swap(m);
+    printMap(m);
+    printMap(m1);
+}
+```
+#### map²åÈëºÍÉ¾³ı  
+¹¦ÄÜÃèÊö  
+* mapÈİÆ÷½øĞĞ²åÈëÊı¾İºÍÉ¾³ıÊı¾İ  
+º¯ÊıÔ­ĞÍ  
+* insert(elem);            //ÔÚÈİÆ÷ÖĞ²åÈëÔªËØ
+* clean();                    //Çå³ıËùÓĞÔªËØ
+* erasre(pos);             //É¾³ıposµü´úÆ÷ËùÖ¸µÄÔªËØ£¬·µ»ØÏÂÒ»¸öÔªËØµÄµü´úÆ÷
+* erase(beg, end);      //É¾³ıÇø¼ä[beg, end]µÄËùÓĞÔªËØ£¬·µ»ØÏÂÒ»¸öÔªËØµÄµü´úÆ÷
+* erase(key);               //É¾³ıÈİÆ÷ÖĞÖµÎªkeyµÄÔªËØ
+´úÂëÊ¾Àı
+```C++
+//mapÈİÆ÷  ²åÈëºÍÉ¾³ı
+void test()
+{
+    map<int, int>m;
+    //²åÈë1
+    m.insert(pair<int, int>(1,10));
+    //²åÈë2
+    m.insert(make_pair(2,10));
+    //²åÈë3
+    m.insert(map<int, int>::value_type(3,10));
+    //²åÈë4
+    m[2]=40;     //²»½¨ÒéÊ¹ÓÃ
+    //É¾³ı
+    m.erase(m.begin());
+    printMap(m);
+    m.erase(3);
+    printMap(m);
+    //Çå¿Õ
+    m.erase(m.begin(), m.end());
+    m.clear();
+}
+```  
+#### map²éÕÒºÍÍ³¼Æ  
+¹¦ÄÜÃèÊö
+* ¶ÔmapÈİÆ÷½øĞĞ²éÕÒÊı¾İÒÔ¼°Í³¼ÆÊı¾İ
+º¯ÊıÔ­ĞÍ
+* find(key);         //²éÕÒkeyÊÇ·ñ´æÔÚ£¬Èô´æÔÚ£¬·µ»Ø¸Ä¼üµÄÔªËØµÄµü´úÆ÷£»Èô²»´æÔÚ£¬·µ»Øset.end();
+* count(key);      //Í³¼ÆkeyµÄÔªËØ
+´úÂëÊ¾Àı
+```C++
+void test()
+{
+    map<int, int>m;
+    m.insert(pair<int, int>(12, 13));
+    m.insert(pair<int, int>(14, 15));
+    m.insert(pair<int, int>(16, 17));
+    m.insert(pair<int, int>(18, 19));
+    //²éÕÒ
+    map<int, int>::iterator pos=m.find(3);
+    if (pos!=m.end())
+    {
+        cout<<"²éµ½ÁËÔªËØkey= "<<(*pos).first<<"value="<<pos->second<<endl;
+    }
+    else
+    {
+        cout<<"Î´ÕÒµ½ÔªËØ"<<endl;
+    }
+    //Í³¼Æ
+    //map²»ÔÊĞí²åÈëÖØ¸´keyÔªËØ£¬countÍ³¼Æ¶øÑÔ£¬½á¹ûÒªÃ´ÊÇ0£¬ÒªÃ´ÊÇ1
+    //mutimapµÄcountÍ³¼Æ¿ÉÄÜ´óÓÚ1
+    int num=m.count(13);
+    cout<<"num="<<num<<endl;
+}
+```   
+×Ü½á
+* ²éÕÒ---find£¨·µ»ØµÄÊÇµü´úÆ÷£©
+* Í³¼Æ---count£¨¶ÔÓÚmap£¬½á¹ûÎª0»òÕß1£©  
+#### mapÈİÆ÷ÅÅĞò  
+* mapÈİÆ÷Ä¬ÈÏÅÅĞò¹æÔòÎª°´ÕÕkeyÖµ½øĞĞ´ÓĞ¡µ½´óÅÅĞò£¬ÕÆÎÕÈçºÎ¸Ä±äÅÅĞò¹æÔò
+Ö÷Òª¼¼Êõµã
+* ÀûÓÃ·Âº¯Êı£¬¿ÉÒÔ¸Ä±äÅÅĞò¹æÔò
+
+´úÂëÊ¾Àı
+```C++
+class MyCompare
+{
+public:
+    bool operator()(int v1, int v2)
+    {
+        return v1>v2;
+    }
+};
+void printMap(map<int, int, MyCompare>&m)
+{
+    for (map<int, int>::iterator it=m.begin(); it!=m.end(); it++)
+    {
+        cout<<"key=  "<<it->first<<" "<<"value= "<<it->second<<endl;
+    }
+    cout<<endl;
+}
+//mapÈİÆ÷  ÅÅĞò
+void test()
+{
+    map<int, int, MyCompare>m;
+    m.insert(pair<int, int>(12, 13));
+    m.insert(pair<int, int>(14, 15));
+    m.insert(pair<int, int>(16, 17));
+    m.insert(pair<int, int>(18, 19));
+    m.insert(make_pair(9, 10));
+    printMap(m);
+
+}
+```  
+×Ü½á
+* ÀûÓÃ·Âº¯Êı¿ÉÒÔÖ¸¶¨mapÈİÆ÷µÄÅÅĞò¹æÔò
+* ¶ÔÓÚ×Ô¶¨ÒåÊı¾İÀàĞÍ£¬ map±ØĞëÖ¸¶¨ÅÅĞò¹æÔò£¬Í¬setÈİÆ÷  
+#### °¸Àı-Ô±¹¤·Ö×é  
+°¸ÀıÃèÊö  
+* ¹«Ë¾½ñÌìÕĞÆ¸ÁË10¸öÔ±¹¤(ABCDEFGHI)£¬10ÃûÔ±¹¤½øÈë¹«Ë¾Ö®ºó£¬ĞèÒªÖ¸ÅÉÔ±¹¤ÔÚÄÇ¸ö²¿ÃÅ¹¤×÷
+* Ô±¹¤ĞÅÏ¢£ºĞÕÃû¡¢¹¤×Ê×é³É£»²¿ÃÅ·ÖÎª£º²ß»®¡¢ÃÀÊõ¡¢ÑĞ·¢
+* Ëæ»ú¸ø10ÃûÔ±¹¤·ÖÅä²¿ÃÅºÍ¹¤×Ê
+* Í¨¹ımultimap½øĞĞĞÅÏ¢µÄ²åÈë£¬key(²¿ÃÅ±àºÅ)value(Ô±¹¤)
+* ·Ö²¿ÃÅÏÔÊ¾Ô±¹¤ĞÅÏ¢
+ÊµÏÖ²½Öè
+1. ´´½¨10ÃûÔ±¹¤£¬·Åµ½vectorÖĞ
+2. ±éÀúvectorÈİÆ÷£¬È¡³öÃ¿¸öÔ±¹¤£¬½øĞĞËæ»ú·Ö×é
+3. ·Ö×éºó£¬½«Ô±¹¤²¿ÃÅ±àºÅ×÷Îªkey£¬¾ßÌå¹¤×÷×÷Îªvalue£¬·Åµ½multimapÈİÆ÷ÖĞ
+4. ·Ö²¿ÃÅÏÔÊ¾Ô±¹¤ĞÅÏ¢
+°¸Àı´úÂë
+```C++  
+#include<iostream>
+#include<vector>
+#include<map>
+#include<string>
+#include<ctime>
+#define  Scheme     0
+#define  Fine_arts   1
+#define  Research_development  2
+using namespace std;
+class Employee
+{
+public:
+    Employee(string name, int salary)
+    {
+        this->m_Name=name;
+        this->m_Salary=salary;
+    }
+    string m_Name;
+    int  m_Salary;
+};
+//´´½¨Ô±¹¤
+void creat_employee(vector<Employee>&v)
+{
+    string nameSeed="ABCDEFGHJK";
+    for (int i = 0; i < 10; i++)
+    {
+        string name="Ô±¹¤£º";
+        name+=nameSeed[i];
+        int salary=rand()%5000+10000;   //10000~149999
+        Employee e(name,salary);
+        v.push_back(e);
+    }
+}
+//·Ö×é
+void setGroup( vector<Employee>&v, multimap<int, Employee>&m)
+{
+    for (vector<Employee>::iterator it=v.begin(); it!=v.end(); it++)
+    {
+        int depId=rand()%3;   //²úÉúËæ»ú±àºÅ
+        m.insert(make_pair(depId, *it));
+    }
+}
+//ÏÔÊ¾Ô±¹¤
+void showEmployee(multimap<int, Employee>&m)
+{
+    cout<<"²ß»®²¿ÃÅ£º"<<endl;
+    multimap<int, Employee>::iterator pos=m.find(Scheme); 
+    int num=m.count(Scheme);
+    int  index=0;
+    for (; pos!=m.end()&&index<num; pos++, index++)
+    {
+        cout<<"ĞÕÃû£º"<< pos->second.m_Name;
+        cout<<"Ğ½×Ê£º"<<pos->second.m_Salary<<endl;
+    }
+    cout<<"------------------------------------"<<endl;
+    cout<<"ÃÀÊõ²¿ÃÅ£º"<<endl;
+    pos=m.find(Fine_arts); 
+    num=m.count(Fine_arts);
+    index=0;
+    for (; pos!=m.end()&&index<num; pos++, index++)
+    {
+        cout<<"ĞÕÃû£º"<< (*pos).second.m_Name;
+        cout<<"Ğ½×Ê£º"<<(*pos).second.m_Salary<<endl;
+    }
+    cout<<"------------------------------------"<<endl;
+    cout<<"ÑĞ·¢²¿ÃÅ£º"<<endl;
+    pos=m.find(Research_development); 
+    num=m.count(Research_development);
+    index=0;
+    for (; pos!=m.end()&&index<num; pos++, index++)
+    {
+        cout<<"ĞÕÃû£º"<< (*pos).second.m_Name;
+        cout<<"Ğ½×Ê£º"<<(*pos).second.m_Salary<<endl;
+    }
+}
+int main()
+{
+    //1. ´´½¨Ô±¹¤
+    vector<Employee>v;
+    creat_employee(v);
+    // for (vector<Employee>::iterator it=v.begin(); it!=v.end(); it++)
+    // {
+    //     cout<<"ĞÕÃû£º"<<(*it).m_Name;
+    //     cout<<"Ğ½Ë®£º"<<(*it).m_Salary<<endl;
+    // }    
+    //2. Ô±¹¤·Ö×é
+    multimap<int, Employee>m;
+    setGroup(v, m);
+    //·Ö×éÏÔÊ¾Ô±¹¤
+    showEmployee(m);
+    system("pause");
+    return 0;
+}
+```
+## 3. STL-º¯Êı¶ÔÏó
+### 3.1 º¯Êı¶ÔÏó
+#### »ù±¾¸ÅÄî
+* ÖØÔØº¯Êıµ÷ÓÃ²Ù×÷·ûµÄÀà£¬Æä¶ÔÏó³ÆÎªº¯Êı¶ÔÏó
+* º¯Êı¶ÔÏóÊ¹ÓÃÖØÔØ£¬ĞĞÎªÀàËÆº¯Êıµ÷ÓÃ£¬Ò²½Ğ·Âº¯Êı
+#### ±¾ÖÊ  
+º¯Êı¶ÔÏó(·Âº¯Êı)ÊÇÒ»¸öÀà£¬²»ÊÇÒ»¸öº¯Êı
+#### º¯Êı¶ÔÏóÊ¹ÓÃ  
+ÌØµã£º  
+* º¯Êı¶ÔÏóÔÚÊ¹ÓÃ£¬¿ÉÒÔÏñÆÕÍ¨º¯ÊıÄÇÑùµ÷ÓÃ£¬¿ÉÒÔÓĞ²ÎÊı£¬¿ÉÒÔ·µ»ØÖµ
+* º¯Êı¶ÔÏó³¬³öÆÕÍ¨º¯ÊıµÄ¸ÅÄî£¬º¯Êı¶ÔÏó¿ÉÒÔÓĞ×Ô¼ºµÄ×´Ì¬
+* º¯Êı¶ÔÏó¿ÉÒÔ×÷Îª²ÎÊı´«µİ
+#### ´úÂëÊ¾Àı  
+```C++
+class MyAdd
+{
+public:
+    int operator()(int v1, int v2)
+    {
+        return  v1+v2;
+    }
+};
+//1.º¯Êı¶ÔÏóÔÚÊ¹ÓÃÊ±£¬¿ÉÒÔÏñÆÕÍ¨º¯ÊıÄÇÑùµ÷ÓÃ£¬¿ÉÒÔÓĞ²ÎÊı£¬¿ÉÒÔÓĞ·µ»ØÖµ
+void test01()
+{
+    MyAdd myadd;
+    cout<<myadd(10, 10)<<endl;
+}
+//2. º¯Êı¶ÔÏó³¬³öÆÕÍ¨º¯ÊıµÄ¸ÅÄî£¬¿ÉÒÔÓĞ×Ô¼ºµÄ×´Ì¬
+class myPrint
+{
+public:
+     myPrint()
+     {
+         this->count=0;
+     }
+    void operator()(string test)
+    {
+        cout<<test<<endl;
+        this->count++;
+    }
+    int count;  //ÄÚ²¿×´Ì¬
+};
+void test02()
+{
+    myPrint myprint;
+    myprint("hello world");
+    myprint("hello world");
+    cout<<"myprintµ÷ÓÃ´ÎÊı"<<myprint.count<<endl;
+}
+//º¯Êı¶ÔÏó¿ÉÒÔ×÷Îª²ÎÊı´«µİ
+void doPrint(myPrint &mp, string test)
+{
+    mp(test);
+}
+void test03()
+{
+    myPrint myprint;
+    doPrint(myprint,"hello c++");
+}
+```
+### 3.2 Î½´Ê
+#### »ù±¾¸ÅÄî
+* ·µ»ØboolÀàĞÍµÄ·Âº¯Êı³ÆÎªÎ½´Ê
+* Èç¹ûoperator()½ÓÊÜÒ»¸ö²ÎÊı£¬ÄÇÃ´½Ğ×öÒ»ÔªÎ½´Ê
+* Èç¹ûoperator()½ÓÊÜÁ½¸ö²ÎÊı£¬ÄÇÃ´½Ğ×ö¶şÔªÎ½´Ê
+####  Ò»ÔªÎ½´Ê(Ê¾Àı)
+```C++
+class GreatFive
+{
+public:
+    bool operator()(int val)
+    {
+        return val>5;
+    }
+};
+void test01()
+{
+    vector<int>v;
+    for (int i = 0; i < 10; i++)
+    {
+        v.push_back(i);
+    }
+    //GreaterFive()   //ÄäÃûº¯Êı¶ÔÏó
+    vector<int>::iterator it=find_if(v.begin(), v.end(), GreatFive());
+    if (it==v.end())
+    {
+        cout<<"Î´ÕÒµ½"<<endl;
+    }
+    else
+    {
+        cout<<"ÒÑÕÒµ½"<<*it<<endl;
+    }    
+}  
+```
+####  ¶şÔªÎ½´Ê
+```C++
+//¶şÔªÎ½´Ê
+class myCompare
+{
+public:
+    bool operator()(int val1, int val2)
+    {
+        return val1>val2;
+    }
+};
+void test01()
+{
+    vector<int>v;
+    for (int i = 0; i < 10; i++)
+    {
+        v.push_back(i);
+    }
+    sort(v.begin(), v.end());
+    //GreaterFive()   //ÄäÃûº¯Êı¶ÔÏó
+   sort(v.begin(), v.end(), myCompare());
+   for (vector<int>::iterator it=v.begin(); it!=v.end(); it++)
+   {
+       cout<<*it<<" ";
+   }
+   cout<<endl;
+}
+```  
+###3.3 ÄÚ½¨º¯Êı¶ÔÏó  
+#### ÄÚ½¨º¯Êı¶ÔÏóÒâÒå
+¸ÅÄî  
+* STLÄÚ½¨ÁËÒ»Ğ©º¯Êı¶ÔÏó  
+·ÖÀà  
+* ËãÊı·Âº¯Êı
+* ¹ØÏµ·Âº¯Êı
+* Âß¼­·Âº¯Êı
+ÓÃ·¨  
+* ·Âº¯ÊıËù²úÉúµÄ¶ÔÏó£¬ÓÃ·¨ºÍÒ»°ãº¯ÊıÍêÈ«ÏàÍ¬
+* Ê¹ÓÃÄÚ½¨º¯Êı¶ÔÏó£¬ĞèÒªÒıÈëÍ·ÎÄ¼ş#include<functional>
+#### ËãÊı·Âº¯Êı
+¹¦ÄÜÃèÊö
+* ÊµÏÖËÄÔòÔËËã
+* ÆäÖĞnegativeÊÇÒ»ÔªÔËËã£¬ÆäËû¶¼ÊÇ¶şÔªÔËËã
+·Âº¯ÊıÔ­ĞÍ
+* template<class T> T plus<T>          //¼Ó·¨·Âº¯Êı
+* template<class T>T minus<T>        //¼õ·¨·Âº¯Êı  
+* template<class T>T multiplies<T>  //³Ë·¨·Âº¯Êı
+* template<class T>T divides<T>      //³ı·¨·Âº¯Êı
+* template<class T>T modulus<T>   //È¡Ä£·Âº¯Êı
+* template<class T>T negate<T>      //È¡·´·Âº¯Êı
+´úÂëÊ¾Àı
+```C++
+/ÄÚ½¨º¯Êı¶ÔÏó£¬ËãÊõ·Âº¯Êı
+//negate  Ò»Ôª·Âº¯Êı £¬È¡·´ ·Âº¯Êı
+void test()
+{
+    negate<int>n;
+    cout<<n(50)<<endl;
+}
+//plus ¶şÔª·Âº¯Êı  ¼Ó·¨
+void test01()
+{
+    plus<int>p;
+    cout<<p(2, 3)<<endl;
+}
+```
+#### ¹ØÏµ·Âº¯Êı
+¹¦ÄÜÃèÊö
+* ÊµÏÖ¹ØÏµ¶Ô±È
+·Âº¯ÊıÔ­ĞÍ
+* template<class T> bool equal_to<T>                         //µÈÓÚ
+* template<class T>bool note_equal_to<T>                //²»µÈÓÚ
+* template<class T>bool greater<T>                           //´óÓÚ
+* template<class T>bool greater_equal<T>                //´óÓÚµÈÓÚ
+* template<class T>bool less<T>                                //Ğ¡ÓÚ
+* template<class T>bool less_equal<T>                    //Ğ¡ÓÚµÈÓÚ
+´úÂëÊ¾Àı
+```C++
+//ÄÚ½¨º¯Êı¶ÔÏó£¬_ËãÊõ·Âº¯Êı
+//´óÓÚ greater
+class MyCompare
+{
+public:
+    bool operator()(int v1, int v2)
+    {
+        return v1>v2;
+    }
+};
+void test()
+{
+    vector<int>v;
+    v.push_back(10);
+    v.push_back(30);
+    v.push_back(40);
+    v.push_back(20);
+    for (vector<int>::iterator it=v.begin(); it!=v.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+    //½µĞò
+    //sort(v.begin(), v.end(), MyCompare)£»
+    //greater<int>() ÄÚ½¨º¯Êı
+    sort(v.begin(), v.end(), MyCompare());
+    for (vector<int>::iterator it=v.begin(); it!=v.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+}
+```
+×Ü½á£º¹ØÏµ·Âº¯ÊıÖĞ×î³£ÓÃµÄ¾ÍÊÇgreater<>´óÓÚ
+#### Âß¼­·Âº¯Êı
+¹¦ÄÜÃèÊö
+* ÊµÏÖÂß¼­ÔËËã
+º¯ÊıÔËËã
+* template<class T>bool logical_and<T>    //Âß¼­Óë
+* template<class T>bool logicla_or<T>      //Âß¼­»ò
+* template<class T>bool logical_not<T>    //Âß¼­·Ç
+´úÂëÊ¾Àı
+```C++
+void test()
+{
+    vector<bool>v;
+    v.push_back(true);
+    v.push_back(false);
+    v.push_back(true);
+    v.push_back(false);
+    for (vector<bool>::iterator it=v.begin(); it!=v.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+    //ÀûÓÃÂß¼­·Ç¡¢½«ÈİÆ÷v°áÔËµ½ÈİÆ÷v2ÖĞ£¬²¢Ö´ĞĞÈ¡·´²Ù×÷
+    vector<bool>v2;
+    v2.resize(v.size());
+    transform(v.begin(), v.end(), v2.begin(), v.end(), logical_not<bool>());
+    for (vector<bool>::iterator it=v.begin(); it!=v.end(); it++)
+    {
+        cout<<*it<<" ";
+    }
+    cout<<endl;
+}
+```
+## 4. STL-³£ÓÃËã·¨
+¸ÅÊö£º
+* Ëã·¨Ö÷ÒªÊÇÓÉÍ·ÎÄ¼ş<algorithm>¡¢<functional>¡¢<numeric>
+### 4.1 ³£ÓÃ±éÀúËã·¨
+#### for_each 
+¹¦ÄÜÃèÊö£º
+* ÊµÏÖ±éÀúÈİÆ÷
+º¯ÊıÔ­ĞÍ£º
+* for_each(iterator beg, iterator end, func)
+  //±éÀúËã·¨ ±éÀúÈİÆ÷ÔªËØ
+  //beg ¿ªÊ¼µü´úÆ÷
+  //end  ½áÊøµü´úÆ÷
+  // _func º¯Êı»òÕßº¯Êı¶ÔÏó
+´úÂëÊ¾Àı£º
+```C++
+//³£ÓÃ±éÀúËã·¨ for_each
+//ÆÕÍ¨º¯Êı
+void print01(int val)
+{
+    cout<<val<<" ";
+}
+//·Âº¯Êı
+class print02
+{
+public:
+    void operator()(int val)
+    {
+        cout<<val<<endl;
+    }
+};
+void test()
+{
+    vector<int>v;
+    for (int i = 0; i < 10; i++)
+    {
+        v.push_back(i);
+    }
+    cout<<endl;
+    for_each(v.begin(), v.end(), print01);
+    cout<<endl;
+    for_each(v.begin(), v.end(), print02());
+}
+```
+#### transform
+¹¦ÄÜÃèÊö
+* °áÔËÈİÆ÷µ½ÁíÒ»¸öÈİÆ÷ÖĞ
+º¯ÊıÔ­ĞÍ
+* transform(iterator beg1, iterator end1, iterator beg2, func)
+  //beg1 Ô´ÈİÆ÷¿ªÊ¼µü´úÆ÷
+  //end1 Ô´ÈİÆ÷½áÊøµü´úÆ÷
+  //beg2 Ä¿±êÈİÆ÷¿ªÊ¼µü´úÆ÷
+  //_func º¯Êı»òÕßº¯Êı¶ÔÏó
+´úÂëÊ¾Àı
+```C++
+class Print
+{
+public:
+    int operator()(int v)
+    {
+        return v;
+    }
+};
+class Myprint
+{
+public:
+    void operator()(int val)
+    {
+        cout<<val<<" ";
+    }
+};
+void test()
+{
+    vector<int>v;
+    vector<int>v1;
+    for (int i = 0; i < 10; i++)
+    {
+        v.push_back(i);
+    }
+    transform(v.begin(),v.end(), v1.begin(), Print());
+    for_each(v1.begin(), v1.end(), Myprint());  
+}
+```
+### 4.2 ³£ÓÃ²éÕÒËã·¨
+¼ò½é£º
+* find                                       //²éÕÒÔªËØ
+* find_if                                   //°´Ìõ¼ş²éÕÒÔªËØ
+* adjacent_find                        //²éÕÒÏàÁÚÖØ¸´ÔªËØ
+* binary_serach                        //¶ş·Ö²éÕÒ·¨
+* count                                    //Í³¼ÆÔªËØ¸öÊı
+* count_if                                // °´Ìõ¼şÍ³¼ÆÔªËØ¸öÊı
+#### find
+Ëã·¨¼ò½é
+* ²éÕÒÖ¸¶¨ÔªËØ£¬ÕÒµ½·µ»ØÖ¸¶¨ÔªËØµÄµü´úÆ÷£¬ÕÒ²»µ½·µ»Ø½áÊøµü´úÆ÷end()
+
+º¯ÊıÔ­ĞÍ
+* find(iterator beg, iterator end, value);
+  //°´Öµ²éÕÒÔªËØ£¬ÕÒµ½·µ»ØÖ¸¶¨Î»ÖÃµü´úÆ÷£¬ÕÒ²»µ½·µ»Ø½áÊøµü´úÆ÷Î»ÖÃ
+  //beg¿ªÊ¼µü´úÆ÷
+  //end½áÊøµü´úÆ÷
+  //value ²éÕÒµÄÔªËØ
+´úÂëÊ¾Àı
+```C++
+//find
+//²éÕÒ ÄÚÖÃÊı¾İÀàĞÍ
+void test01()
+{
+    vector<int>v;
+    for (int i = 0; i < 10; i++)
+    {
+        v.push_back(i);
+    }
+    //²éÕÒÈİÆ÷ÖĞ£¬ÊÇ·ñÓĞ5Õâ¸öÔªËØ
+    vector<int>::iterator it=find(v.begin(), v.end( ), 2 );
+    if (it==v.end())
+    {
+        cout<<"Ã»ÓĞÕÒµ½£¡"<<endl;
+    }
+    else
+    {
+        cout<<"ÕÒµ½£º"<<*it<<endl;
+    }
+}
+//Àà
+class Person
+{
+public:
+    Person(string m_Name, int m_Age)
+    {
+        this->m_Age=m_Age;
+        this->m_Name=m_Name;
+    }
+    //ÖØÔØ ==µ×²ãfindÖªµÀÈçºÎ¶Ô±ÈpersonÊı¾İÀàĞÍ
+    bool operator== (const Person & p)
+    {
+        if (this->m_Name==p.m_Name&& this->m_Age==p.m_Age)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    string m_Name;
+    int m_Age;
+};
+//²éÕÒ¡¢×Ô¶¨ÒåÊı¾İÀàĞÍ
+void test02()
+{
+    vector<Person>v;
+    //´´½¨Êı¾İ
+    Person p1("aaa", 10);
+    Person p2("bbb", 20);
+    Person p3("ccc",  30);
+    Person p4("ddd", 40);
+    //·ÅÈëµ½ÈİÆ÷ÖĞ
+    v.push_back(p1);
+    v.push_back(p2);
+    v.push_back(p3);
+    v.push_back(p4);
+    Person pp("bbb", 20);
+    vector<Person>::iterator it=find(v.begin(), v.end(), pp);
+    if (it==v.end())
+    {
+        cout<<"Ã»ÓĞÕÒµ½"<<endl;
+    }
+    else
+    {
+        cout<<"ÕÒµ½ÔªËØ ĞÕÃû£º"<<it->m_Name<<"ÄêÁä£º"<<it->m_Age<<endl;
+    }
+}
+```
+#### find_if
+¹¦ÄÜÃèÊö
+* °´Ìõ¼ş²éÕÒÔªËØ  
+
+º¯ÊıÔ­ĞÍ
+* find_if(iterator beg, iterator end, _Pred);
+  //°´Öµ²éÕÒÔªËØ£¬ÕÒµ½·µ»ØÖ¸¶¨Î»ÖÃµü´úÆ÷£¬ÕÒ²»µ½·µ»Ø½áÊøµü´úÆ÷Î»ÖÃ
+  //beg¿ªÊ¼µü´úÆ÷
+  //end½áÊøµü´úÆ÷
+  // _Predº¯Êı»òÕßÎ½´Ê(·µ»ØboolÀàĞÔµÄ·Âº¯Êı)
+
+Ê¾Àı£º
+```C++
+/find_if
+// 1.ÄÚÖÃÊı¾İÀàĞÍ
+//Î½´Ê
+class  sss
+{
+public:
+    bool operator()(int val)
+    {
+        return val>5;
+    }
+};
+void test01()
+{
+    vector<int>v;
+    for (int i = 0; i < 10; i++)
+    {
+        v.push_back(i);
+    }
+    //²éÕÒÈİÆ÷ÖĞ£¬ÊÇ·ñÓĞ5Õâ¸öÔªËØ
+    vector<int>::iterator it=find_if(v.begin(), v.end( ), sss() );
+    if (it==v.end())
+    {
+        cout<<"Ã»ÓĞÕÒµ½£¡"<<endl;
+    }
+    else
+    {
+        cout<<"ÕÒµ½£º"<<*it<<endl;
+    }
+}
+//×Ô¶¨ÒåÊı¾İÀàĞÍ
+class Person
+{
+public:
+    Person(string m_Name, int m_Age)
+    {
+        this->m_Age=m_Age;
+        this->m_Name=m_Name;
+    }
+    string m_Name;
+    int m_Age;
+};
+// 1.ÄÚÖÃÊı¾İÀàĞÍ
+//Î½´Ê
+class  sss20
+{
+public:
+    bool operator()(Person &p)
+    {
+        return p.m_Age>20;
+    }
+};
+//²éÕÒ¡¢×Ô¶¨ÒåÊı¾İÀàĞÍ
+void test02()
+{
+    vector<Person>v;
+    //´´½¨Êı¾İ
+    Person p1("aaa", 10);
+    Person p2("bbb", 20);
+    Person p3("ccc",  30);
+    Person p4("ddd", 40);
+    //·ÅÈëµ½ÈİÆ÷ÖĞ
+    v.push_back(p1);
+    v.push_back(p2);
+    v.push_back(p3);
+    v.push_back(p4);
+    //ÕÒµ½ÄêÁä´óÓÚ20µÄÈË
+    vector<Person>::iterator it=find_if(v.begin(), v.end(), sss20());
+    if (it==v.end())
+    {
+        cout<<"Ã»ÓĞÕÒµ½"<<endl;
+    }
+    else
+    {
+        cout<<"ÕÒµ½ÔªËØ ĞÕÃû£º"<<it->m_Name<<"ÄêÁä£º"<<it->m_Age<<endl;
+    }
+}
+```
+#### adjacent_find
+¹¦ÄÜÃèÊö£º
+* ²éÕÒÏàÁÚÖØ¸´ÔªËØ
+
+º¯ÊıÔ­ĞÍ£º
+* adjacent_find(iterator beg, iterrator end);
+  //²éÕÒÏàÁÚÖØ¸´ÔªËØ£¬·µ»ØÏàÁÚÔªËØµÄµÚÒ»¸öÎ»ÖÃµÄµü´úÆ÷
+  //beg¿ªÊ¼µü´úÆ÷
+  //end ½áÊøµü´úÆ÷
+Ê¾Àı£º
+```C++
+void test()
+{
+    vector<int>v;
+    //´´½¨Êı¾İ
+    v.push_back(10);
+    v.push_back(10);
+    v.push_back(10);
+    v.push_back(10);
+    vector<int>::iterator it=adjacent_find(v.begin(), v.end());
+    if (it==v.end())
+    {
+        cout<<"Ã»ÓĞÕÒµ½"<<endl;
+    }
+    else
+    {
+        cout<<"ÕÒµ½ÔªËØ£º"<<*it<<endl;
+    }
+}
+```
+#### binary_search
+¹¦ÄÜÃèÊö
+* ²éÕÒÖ¸¶¨ÔªËØÊÇ·ñ´æÔÚ
+
+º¯ÊıÔ­ĞÍ
+* bool binary_search(iterator beg, iterator end, value);
+  //²éÕÒÖ¸¶¨ÔªËØ£¬²éµ½·µ»Øtrue ·ñÔòfalse
+  //×¢Òâ£ºÔÚÎŞĞòĞòÁĞÖĞ²»¿ÉÓÃ
+  //beg¿ªÊ¼µü´úÆ÷
+  //end½áÊøµü´úÆ÷
+  //value ²éÕÒµÄÔªËØ
+
+Ê¾Àı
+```C++
+void test()
+{
+    vector<int>v;
+    //´´½¨Êı¾İ
+    v.push_back(10);
+    v.push_back(20);
+    v.push_back(30);
+    v.push_back(40);
+    bool it=binary_search(v.begin(), v.end(), 20);
+    if (it)
+    {
+        cout<<"Ã»ÓĞÕÒµ½"<<endl;
+    }
+    else
+    {
+        cout<<"ÕÒµ½ÔªËØ£º"<<endl;
+    }
+}
+```
+#### count
+Í³¼ÆÔªËØ¸öÊı
+* (iterator beg, iterator end, value)£»
+  //Í³¼ÆÔªËØ³öÏÖ´ÎÊı
+  //beg ¿ªÊ¼µü´úÆ÷
+  //end ½áÊøµü´úÆ÷
+  //value Í³¼ÆµÄÔªËØ
+
+Ê¾Àı
+```C++
+//count
+//Í³¼Æ¸öÊı
+//1.ÄÚÖÃÊı¾İÀàĞÍ
+void test()
+{
+    vector<int>v;
+    //´´½¨Êı¾İ
+    v.push_back(10);
+    v.push_back(20);
+    v.push_back(30);
+    v.push_back(40);
+    int  it=count(v.begin(), v.end(), 20);
+    cout<<"ÔªËØ¸öÊı£º"<<it<<endl;
+}
+//2. ×Ô¶¨ÒåÊı¾İÀàĞÍ
+//Àà
+class Person
+{
+public:
+    Person(string m_Name, int m_Age)
+    {
+        this->m_Age=m_Age;
+        this->m_Name=m_Name;
+    }
+    //ÖØÔØ ==µ×²ãfindÖªµÀÈçºÎ¶Ô±ÈpersonÊı¾İÀàĞÍ
+    bool operator== (const Person & p)
+    {
+        if (this->m_Name==p.m_Name&& this->m_Age==p.m_Age)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    string m_Name;
+    int m_Age;
+};
+//²éÕÒ¡¢×Ô¶¨ÒåÊı¾İÀàĞÍ
+void test02()
+{
+    vector<Person>v;
+    //´´½¨Êı¾İ
+    Person p1("bbb", 20);
+    Person p2("bbb", 20);
+    Person p3("ccc",  30);
+    Person p4("ddd", 40);
+    //·ÅÈëµ½ÈİÆ÷ÖĞ
+    v.push_back(p1);
+    v.push_back(p2);
+    v.push_back(p3);
+    v.push_back(p4);
+    Person pp("bbb", 20);
+    int num=count(v.begin(), v.end(), pp);
+    cout<<"ÔªËØ¸öÊı£º"<<num<<endl;
+}
+```
+#### count_if
+* °´Ìõ¼şÍ³¼ÆÔªËØ¸öÊı
+
+º¯ÊıÔ­ĞÍ
+* count_if(iterator beg, iterator end, _Pred);
+  //°´Ìõ¼şÍ³¼ÆÔªËØ³öÏÖ´ÎÊı
+  //beg¿ªÊ¼µü´úÆ÷
+  //end½áÊøµü´úÆ÷
+  //_Pred Î½´Ê
+
+Ê¾Àı
+```C++
+//³£ÓÃ²éÕÒËã·¨   count_if
+//Í³¼ÆÄÚÖÃÊı¾İÀàĞÍ
+class Greater
+{
+public:
+    bool operator()(int val)
+    {
+        return val>20;
+    }
+};
+void test01()
+{
+        vector<int>v;
+    //´´½¨Êı¾İ
+    v.push_back(10);
+    v.push_back(20);
+    v.push_back(30);
+    v.push_back(40);
+    int  it=count_if(v.begin(), v.end(), Greater());
+    cout<<"ÔªËØ¸öÊı£º"<<it<<endl;
+}
+//Í³¼Æ×Ô¶¨ÒåÊı¾İÀàĞÍ
+class Person
+{
+public:
+    Person(string m_Name, int m_Age)
+    {
+        this->m_Age=m_Age;
+        this->m_Name=m_Name;
+    }
+    string m_Name;
+    int m_Age;
+};
+//·Âº¯Êı
+class AgeGreat
+{
+public:
+    bool operator() (const Person & p)
+    {
+        return p.m_Age>20;
+    }
+}; 
+//²éÕÒ¡¢×Ô¶¨ÒåÊı¾İÀàĞÍ
+void test02()
+{
+    vector<Person>v;
+    //´´½¨Êı¾İ
+    Person p1("²Ü²Ù", 30);
+    Person p2("ÖÜè¤", 20);
+    Person p3("ËïÈ¨", 30);
+    Person p4("Ğ¡ÇÇ", 18);
+    //·ÅÈëµ½ÈİÆ÷ÖĞ
+    v.push_back(p1);
+    v.push_back(p2);
+    v.push_back(p3);
+    v.push_back(p4);
+    int num=count_if(v.begin(), v.end(), AgeGreat());
+    cout<<"ÔªËØ¸öÊı£º"<<num<<endl;
+}
+```
+### 4.3 ³£ÓÃÅÅĞòËã·¨
+Ëã·¨¼ò½é
+* sort                                           //¶ÔÈİÆ÷ÄÚÔªËØ½øĞĞÅÅĞò
+* random_shuffle                        //Ï´µô   Ö¸¶¨·¶Î§ÄÚµÄÔªËØËæ»úµ÷Õû´ÎĞò
+* merge                                       //ÈİÆ÷ÔªËØºÏ²¢£¬²¢´æ´¢µ½ÁíÒ»¸öÈİÆ÷ÄÚ
+* reverse                                      //·´×ªÖ¸¶¨·¶Î§ÄÚµÄÔªËØ
+
+#### sort
+* ¶ÔÈİÆ÷ÄÚÔªËØ½øĞĞÅÅĞò
+* sort(iterator beg, iterator end, _Pred)
+  //°´ÖµÕÒµ½ÔªËØ£¬ÕÒµ½·µ»ØÖ¸¶¨Î»ÖÃµü´úÆ÷£¬ÕÒ²»µ½·µ»Ø½áÊøµü´úÆ÷Î»ÖÃ
+  //beg ¿ªÊ¼µü´úÆ÷
+  //end ½áÊøµü´úÆ÷
+  // _pred Î½´Ê
+
+Ê¾Àı
+```C++
+//³£ÓÃÅÅĞòËã·¨£ºsort
+void myPrint(int val)
+{
+    cout<<val<<" ";
+}
+void test01()
+{
+    vector<int>v;
+    v.push_back(40);
+    v.push_back(30);
+    v.push_back(20);
+    v.push_back(10);
+    //ÀûÓÃsortÉıĞò
+    sort(v.begin(), v.end());
+    for_each(v.begin(), v.end(), myPrint);
+    cout<<endl;
+    //½µĞò
+    sort(v.begin(), v.end(), greater<int>());
+}
+```
+#### random_shuffle
+* Ï´ÅÆ Ö¸¶¨·¶Î§ÄÚµÄÔªËØËæ»úµ÷Õû´ÎĞò
+* random_shuffle(iterator beg, iterator end);
+  //Ö¸¶¨·¶Î§ÄÚµÄÔªËØËæ»ú´ÎĞò
+  //beg ¿ªÊ¼µü´úÆ÷
+  //end ½áÊøµü´úÆ÷
+
+Ê¾Àı
+```C++
+//³£ÓÃÅÅĞòËã·¨£ºrandom_shuffle
+void myPrint(int val)
+{
+    cout<<val<<" ";
+}
+void test01()
+{
+    srand((unsigned int)time(NULL));
+    vector<int>v;
+    for(int i=0; i<10; i++)
+    {
+        v.push_back(i);
+    }
+    //ÀûÓÃÏ´ÅÆ¡¢Ëã·¨¡¢´òÂÒË³Ğò
+    random_shuffle(v.begin(), v.end());
+    for_each(v.begin(), v.end(), myPrint);
+    cout<<endl;
+    //½µĞò
+    sort(v.begin(), v.end(), greater<int>());
+    for_each(v.begin(), v.end(), myPrint);
+    cout<<endl;
+}
+```
+#### merge
+* Á½¸öÈİÆ÷ÔªËØºÏ²¢£¬²¢´æ´¢µ½ÁíÒ»¸öÈİÆ÷ÖĞ
+* merge(iterator beg1, iterator end1, iterator beg2, iterator end2, iterator dest);
+ //ÈİÆ÷ÔªËØºÏ²¢£¬²¢´æ´¢µ½ÁíÒ»¸öÈİÆ÷ÖĞ
+ //×¢Òâ£ºÁ½¸öÈİÆ÷±ØĞëÓĞĞòµÄ
+ //beg1 ÈİÆ÷1¿ªÊ¼µü´úÆ÷
+ //end1 ÈİÆ÷1½áÊøµü´úÆ÷
+ //beg2 ÈİÆ÷2¿ªÊ¼µü´úÆ÷
+ //end2 ÈİÆ÷2½áÊøµü´úÆ÷
+ //dest  Ä¿±êÈİÆ÷¿ªÊ¼µü´úÆ÷
+
+Ê¾Àı£º
+```C++
+//³£ÓÃÅÅĞòËã·¨ merge
+class myPrint
+{
+public:
+    void operator() (int val)
+   {
+        cout<<val<<" ";
+   }
+};
+void  test01()
+{
+    vector<int>v1;
+    vector<int>v2;
+    v1.push_back(40);
+    v1.push_back(30);
+    v1.push_back(20);
+    v1.push_back(10);
+    v2.push_back(20);
+    v2.push_back(30);
+    v2.push_back(40);
+    v2.push_back(50);
+    vector<int>vTarget;
+    //ÌáÇ°¸øÄ¿±êÈİÆ÷·ÖÅä¿Õ¼ä
+    vTarget.resize(v1.size()+v2.size());
+    merge(v1.begin(), v1.end(), v2.begin(), v2.end(), vTarget.begin());
+    for_each(vTarget.begin(), vTarget.end(), myPrint());
+}
+```
+#### reverse
+  * ½«ÈİÆ÷ÄÚÔªËØ½øĞĞ·´×ª
+
+º¯ÊıÔ­ĞÍ£º
+*reverse(iterator beg, iterator end);
+ //·´×ªÖ¸¶¨·¶Î§µÄÔªËØ
+ //beg¿ªÊ¼µü´úÆ÷
+ //end ½áÊøµü´úÆ÷
+
+Ê¾Àı£º
+```C++
+//³£ÓÃÅÅĞòËã·¨ merge
+void myPrint (int val)
+{
+        cout<<val<<" ";
+}
+//reverseËã·¨
+void test01()
+{
+    vector<int>v1;
+    v1.push_back(40);
+    v1.push_back(30);
+    v1.push_back(20);
+    v1.push_back(10);
+    cout<<"·´×ªÇ°£º"<<endl;
+    for_each(v1.begin(), v1.end(), myPrint);
+    cout<<"·´×ªºó£º"<<endl;
+    reverse(v1.begin(), v1.end());
+    for_each(v1.begin(), v1.end(), myPrint);
+}
+```
+### 4.3 ³£ÓÃ¿½±´ºÍÌæ»»Ëã·¨
+* copy     //ÈİÆ÷ÄÚÖ¸¶¨·¶Î§ÄÚµÄÔªËØ¿½±´µ½ÁíÒ»¸öÈİÆ÷ÖĞ
+* replace  //½«ÈİÆ÷Ö¸¶¨·¶Î§ÄÚµÄ¾ÉÔªËØĞŞ¸ÄÎªĞÂÔªËØ
+* replace_if  //ÈİÆ÷ÄÚÖ¸¶¨·¶Î§ÄÚÂú×ãÌõ¼şµÄÔªËØÌæ»»ÎªĞÂÔªËØ
+* swap         //»¥»»Á½¸öÈİÆ÷µÄÔªËØ
+  
+#### copy
+* ÈİÆ÷ÄÚÖ¸¶¨·¶Î§ÄÚµÄÔªËØ¿½±´µ½ÁíÒ»¸öÈİÆ÷ÖĞ
+* copy(iterator beg, iterator end, iterator dest);
+  //°´Öµ²éÕÒÔªËØ£¬ÕÒµ½·µ»ØÎ»ÖÃµü´úÆ÷£¬ÕÒ²»µ½·µ»Ø½áÊøµü´úÆ÷Î»ÖÃ
+
+Ê¾Àı
+```C++
+using namespace std;
+//³£ÓÃ¿½±´Ëã·¨ºÍÌæ»»Ëã·¨
+//copy
+void myPrint(int val)
+{
+    cout<<val<<" ";
+}
+void test()
+{
+    vector<int>v1;
+    for (int i = 0; i < 10; i++)
+    {
+        v1.push_back(i);
+    }
+    vector<int>v2;
+    v2.resize(v1.size());
+    copy(v1.begin(), v1.end(), v2.begin());
+    for_each(v2.begin(), v2.end(), myPrint);
+}
+```
+#### replace
+* ½«ÈİÆ÷ÄÚÖ¸¶¨·¶Î§ÄÚµÄ¾ÉÔªËØĞŞ¸ÄÎªĞÂÔªËØ
+* replace(iterator beg, iterator end, oldvalue, newvalue);
+ //·´×ªÖ¸¶¨·¶Î§µÄÔªËØ
+ //beg¿ªÊ¼µü´úÆ÷
+ //end ½áÊøµü´úÆ÷
+//oldvalue ¾ÉÔªËØ
+//newvalue ĞÂÔªËØ
+
+Ê¾Àı
+```C++
+class myPrint
+{
+public:
+    void operator() (int val)
+   {
+        cout<<val<<" ";
+   }
+};
+void test01()
+{
+    vector<int>v1;
+    v1.push_back(40);
+    v1.push_back(20);
+    v1.push_back(20);
+    v1.push_back(10);
+    cout<<"Ìæ»»Ç°£º"<<endl;
+    for_each(v1.begin(), v1.end(), myPrint());
+    cout<<"Ìæ»»ºó£º"<<endl;
+    replace(v1.begin(), v1.end(), 20, 1000);
+    for_each(v1.begin(), v1.end(), myPrint());
+}
+```
+#### replace_if
+```C++
+//Ìæ»»Ëã·¨replace_if
+class myPrint
+{
+public:
+    void operator() (int val)
+   {
+        cout<<val<<" ";
+   }
+};
+class Greater
+{
+public:
+    bool operator()(int val)
+    {
+        return val>20;
+    }
+};
+void test01()
+{
+        vector<int>v;
+    //´´½¨Êı¾İ
+    v.push_back(10);
+    v.push_back(20);
+    v.push_back(40);
+    v.push_back(40);
+     cout<<"Ìæ»»Ç°£º"<<endl;
+    for_each(v.begin(), v.end(), myPrint());
+    cout<<"Ìæ»»ºó£º"<<endl;
+    replace_if(v.begin(), v.end(), Greater(), 1000);
+    for_each(v.begin(), v.end(), myPrint());
+}
+```
+#### swap
+* »¥»»Á½¸öÈİÆ÷µÄÔªËØ
+* swap(container c1, container c2)
+  //»¥»»Á½¸öÈİÆ÷µÄÔªËØ
+  //c1ÈİÆ÷1
+  //c2ÈİÆ÷2
+
+Ê¾Àı£º
+```C++
+//³£ÓÃ¿½±´ºÍÌæ»»Ëã·¨
+void myPrint(int val)
+{
+    cout<<val<<" ";
+}
+void test01()
+{
+    vector<int>v1;
+    vector<int>v2;
+    for (int i = 0; i < 10; i++)
+    {
+        v1.push_back(i);
+        v2.push_back(i+10);
+    }
+    cout<<"½»»»Ç°"<<endl;
+    for_each(v1.begin(), v1.end(), myPrint);
+    for_each(v2.begin(), v2.end(), myPrint);
+    cout<<"½»»»ºó"<<endl;
+    swap(v1, v2);
+    cout<<endl;
+    for_each(v1.begin(), v1.end(), myPrint);
+    for_each(v2.begin(), v2.end(), myPrint);
+}
+```
+### 4.4 ³£ÓÃËãÊõÉú³ÉËã·¨
+* ÕÆÎÕ³£ÓÃµÄËãÊõÉú³ÉËã·¨
+* ÊôÓÚĞ¡ĞÍËã·¨£¬Ê¹ÓÃÊ±°üº¬µÄÍ·ÎÄ¼şÎª #include<number>
+* accumulate    //¼ÆËãÈİÆ÷ÔªËØÀÛ¼Æ×Ü¼Æ
+* fill                   //ÏòÈİÆ÷ÖĞÌí¼ÓÔªËØ
+
+#### accumulate
+* ¼ÆËãÇø¼äÄÚ ÈİÆ÷ÔªËØÀÛ¼Æ×ÜºÍ
+* accumulate(iterator beg, iterator end, value);
+  //¼ÆËãÈİÆ÷ÔªËØÀÛ¼Æ×ÜºÍ
+  //beg ¿ªÊ¼µü´úÆ÷
+  //end ½áÊøµü´úÆ÷
+  //valueÆğÊ¼Öµ
+
+Ê¾Àı£º
+```C++
+//³£ÓÃËãÊõÉú³ÉËã·¨
+void test01()
+{
+    vector<int>v;
+    for (int i = 1; i < 101; i++)
+    {
+        v.push_back(i);
+    }
+    int total=accumulate(v.begin(),v.end(), 0);
+    cout<<"total="<<total<<endl;
+}
+```
+#### fill
+* ÏòÈİÆ÷ÖĞÌî³äÖ¸¶¨µÄÔªËØ
+* fill(iterator beg, iterator end, value);
+  //ÏòÈİÆ÷ÖĞÌî³äÔªËØ
+  //beg ¿ªÊ¼µü´úÆ÷
+  //end ½áÊøµü´úÆ÷
+  //valueÆğÊ¼Öµ
+
+Ê¾Àı£º
+```C++
+//³£ÓÃËãÊõÉú³ÉËã·¨ fill
+void myPrint(int val)
+{
+    cout<<val<<" ";
+}
+void test01()
+{
+    vector<int>v;
+    v.resize(10);
+    //ºóÆÚÖØĞÂÌî³ä
+    fill(v.begin(), v.end(), 100);
+    for_each(v.begin(), v.end(), myPrint);
+}
+```
+### 4.5 ³£ÓÃ¼¯ºÏËã·¨
+* set_intersection       //ÇóÁ½¸öÈİÆ÷1µÄ½»¼¯
+* set_union                 //ÇóÁ½¸öÈİÆ÷µÄ²¢¼¯
+* set_difference          //ÇóÁ½¸öÈİÆ÷µÄ²î¼¯
+
+#### set_intersection
+* ÇóÁ½¸öÈİÆ÷µÄ½»¼¯
+* set_intersection(iterator beg1, iterator end1, iterator beg2, iterator end2, iterator dest);
+  //ÇóÁ½¸ö¼¯ºÏµÄ½»¼¯
+
+Ê¾Àı£º
+```C++
+//³£ÓÃ¼¯ºÏËã·¨ set_intersection
+void myPrint(int val)
+{
+    cout<<val<<" ";
+}
+void test()
+{
+    vector<int>v1;
+    vector<int>v2;
+    for (int i = 0; i < 10; i++)
+    {
+        v1.push_back(i);   //0~9
+        v2.push_back(i+1);  //5~14
+    }
+    vector<int>vTarget;
+    //Ä¿±êÈİÆ÷ĞèÒªÌáÇ°¿ª±Ù¿Õ¼ä
+    //×îÌØÊâÇé¿ö£¬´óÈİÆ÷°üº¬Ğ¡ÈİÆ÷£¬¿ª±Ù¿Õ¼ä£¬È¡Ğ¡ÈİÆ÷µÄsize¼´¿É
+    vTarget.resize(min(v1.size(), v2.size()));
+    //»ñÈ¡½»¼¯
+    vector<int>::iterator itEnd = set_intersection(v1.begin(), v1.end(), v2.begin(), v2.end
+    (),vTarget.begin());
+    for_each(vTarget.begin(), itEnd, myPrint);
+    cout<<endl;
+}
+```  
+×Ü½á£º
+* Çó½»¼¯µÄÁ½¸ö¼¯ºÏ±ØĞëÊÇÓĞĞòĞòÁĞ
+* Ä¿±êÈİÆ÷¿ª±Ù¿Õ¼äĞèÒª´ÓÁ½¸öÈİÆ÷ÖĞÈ¡Ğ¡Öµ
+* set_intersection·µ»ØÖµ¼ÈÊÇ½»¼¯ÖĞ×îºóÒ»¸öÔªËØµÄÎ»ÖÃ
+
+#### set_union
+* ÇóÁ½¸ö¼¯ºÏµÄ²¢¼¯
+
+º¯ÊıÔ­ĞÍ£º
+* * set_union(iterator beg1, iterator end1, iterator beg2, iterator end2, iterator dest);
+  //ÇóÁ½¸ö¼¯ºÏµÄ²¢¼¯
+ //×¢ÒâÁ½¸ö¼¯ºÏ±ØĞëÊÇÓĞĞòĞòÁĞ
+ ```C++
+//³£ÓÃ¼¯ºÏËã·¨ set_diffence£¬Çó²î¼¯
+void myPrint(int val)
+{
+    cout<<val<<" ";
+}
+void test()
+{
+    vector<int>v1;
+    vector<int>v2;
+    for (int i = 0; i < 10; i++)
+    {
+        v1.push_back(i);   //0~9
+        v2.push_back(i+5);  //5~14
+    }
+    vector<int>vTarget;
+    //Ä¿±êÈİÆ÷ĞèÒªÌáÇ°¿ª±Ù¿Õ¼ä
+    //×îÌØÊâÇé¿ö£¬Á½ÈİÆ÷ÎŞ½»¼¯£¬ÈİÆ÷sizeÎªÁ½ÕßÖ®ºÍ¡£
+    vTarget.resize(max(v1.size(), v2.size()));
+    //»ñÈ¡½»¼¯
+    vector<int>::iterator itEnd = set_difference(v1.begin(), v1.end(), v2.begin(), v2.end
+    (),vTarget.begin());
+    for_each(vTarget.begin(), itEnd, myPrint);
+    cout<<endl;
+}
+```
+
