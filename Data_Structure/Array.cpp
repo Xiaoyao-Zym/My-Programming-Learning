@@ -41,7 +41,7 @@ template<typename T>class Vector
 {
 protected:
     Rank _size; int _capacity; T* _elem; //规模、容量、数据区
-    void capForm(T const*  A,   Rank  lo;   Rank  hi);  //复制数组区间A[lo, hi]
+    void capForm(T const*  A,   Rank  lo,   Rank  hi);  //复制数组区间A[lo, hi]
     void expand(); //空间不足时扩容
     void shrink();  //装填因子过小时压缩
     bool bubble(Rank lo, Rank hi); //扫描交换
@@ -59,7 +59,7 @@ public:
     {
         //容量为c，大小为s，初始元素为v
         _elem  =  new   T[_capacity=c];
-        for(_size=0; _size<=s; _elem[_size++];)
+        for(_size=0; _size<=s;  _elem[_size++]);
     }
     //只读函数
     Rank size() const  {return _size;}  //大小
