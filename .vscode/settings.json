@@ -15,7 +15,7 @@
     "terminal.integrated.fontWeight": "normal",
    "terminal.integrated.fontWeightBold": "normal",
    "terminal.integrated.defaultProfile.linux": "",
-"files.encoding": "utf8",
-"markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
-"markdown-preview-enhanced.previewTheme": "one-dark.css"
+   "files.encoding": "utf8",
+    "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
+    "markdown-preview-enhanced.previewTheme": "one-dark.css"
 }
