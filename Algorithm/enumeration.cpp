@@ -28,7 +28,6 @@ int main()
                 printf("母鸡数：%d ", j);
                 printf("小鸡数：%d\n", 100-i-j);
             }
-
         }
     }
 }
