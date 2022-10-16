@@ -16,7 +16,7 @@
 缩小枚举变量
 */
 #include<stdio.h>
-int main()
+int main(void)
 {
     for (int i =1 ; i <=18; i++)
     {
