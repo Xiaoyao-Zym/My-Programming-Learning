@@ -1,27 +1,55 @@
+// {
+//     "version": "2.0.0",
+//     "tasks": [
+//         {
+//             "type": "cppbuild",
+//             "label": "C/C++: gcc.exe build active file",
+//             "command": "E:\\mingw64\\bin\\gcc.exe",
+//             "args": [
+//                 "-g",
+//                 "${file}",
+//                 "-o",
+//                 "${workspaceFolder}\\bulid\\${fileBasenameNoExtension}.exe"//修改.exe文件生成位置
+//             ],
+//             "options": {
+//                 "cwd": "${workspaceFolder}"
+//             },
+//             "problemMatcher": [
+//                 "$gcc"
+//             ],
+//             "group": {
+//                 "kind": "build",
+//                 "isDefault": true
+//             },
+//             "detail": "compiler: E:\\mingw64\\bin\\g++.exe"
+//         }
+//     ]
+// }
 {
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "cppbuild",
-            "label": "C/C++: gcc.exe build active file",
-            "command": "E:\\mingw64\\bin\\gcc.exe",
-            "args": [
-                "-g",
+            "type": "shell",
+            "label": "g++.exe build active file",//任务的名字，就是刚才在命令面板中选择的时候所看到的，可以自己设置
+            "command": "E:/mingw64/bin/g++.exe",
+            "args": [//编译时候的参数
+                "-g",//添加gdb调试选项
                 "${file}",
-                "-o",
-                "${workspaceFolder}\\bulid\\${fileBasenameNoExtension}.exe"//修改.exe文件生成位置
+                "-o",//指定生成可执行文件的名称
+                "${fileDirname}/build/${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "E:/mingw64/bin/"
             },
             "problemMatcher": [
                 "$gcc"
             ],
             "group": {
                 "kind": "build",
-                "isDefault": true
-            },
-            "detail": "compiler: E:\\mingw64\\bin\\g++.exe"
+                "isDefault": true//表示快捷键Ctrl+Shift+B可以运行该任务
+            }
         }
     ]
 }

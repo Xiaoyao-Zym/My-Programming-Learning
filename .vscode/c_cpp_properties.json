@@ -1,3 +1,24 @@
+// {
+//     "configurations": [
+//         {
+//             "name": "Win32",
+//             "includePath": [
+//                 "${workspaceFolder}/**"
+//             ],
+//             "defines": [
+//                 "_DEBUG",
+//                 "UNICODE",
+//                 "_UNICODE"
+//             ],
+//             "windowsSdkVersion": "10.0.19041.0",
+//             "compilerPath": "E:\\mingw64\\bin\\gcc.exe",
+//             "cStandard": "c17",
+//             "cppStandard": "c++17",
+//             "intelliSenseMode": "gcc-x64"
+//         }
+//     ],
+//     "version": 4
+// }
 {
     "configurations": [
         {
@@ -10,9 +31,9 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "windowsSdkVersion": "10.0.19041.0",
-            "compilerPath": "E:\\mingw64\\bin\\gcc.exe",
-            "cStandard": "c17",
+            //此处是编译器路径，以后可直接在此修改
+            "compilerPath": "E:/mingw64/bin/gcc.exe",
+            "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"
         }
